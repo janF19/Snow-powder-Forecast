@@ -114,7 +114,7 @@ def fetch_weather_data(resort):
 
 def main():
     # Load resort data from JSON file
-    with open('Z_url_merged_resorts.json', 'r', encoding='utf-8') as f:
+    with open('resorts_for_forecast.json', 'r', encoding='utf-8') as f:
         resorts = json.load(f)
 
     

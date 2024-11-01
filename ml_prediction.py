@@ -173,8 +173,8 @@ if __name__ == "__main__":
     df['date'] = pd.to_datetime(df['date'])
     
     # Example date range for predictions
-    start_date = '2025-01-01'
-    end_date = '2025-01-10'
+    start_date = '2025-02-01'
+    end_date = '2025-02-10'
     
     print("Getting predictions for all resorts...")
     predictions = get_resorts_by_date_range(start_date, end_date)
@@ -189,4 +189,4 @@ if __name__ == "__main__":
         print("-" * 50)
     
     # Generate monthly summaries
-    generate_monthly_summaries(get_resorts_by_date_range)
+    #generate_monthly_summaries(get_resorts_by_date_range)

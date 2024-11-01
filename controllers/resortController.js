@@ -340,49 +340,50 @@ exports.calculateHistorySnow = (req, res) => {
 exports.getAllHistoryData = (req, res) => {
     res.render('allHistory');
 };
+
 exports.calculateAllHistory = (req, res) => {
     const startDate = req.body.startDate;
     const endDate = req.body.endDate;
-    
-    console.log('Received dates:', { startDate, endDate });
-    
+    const country = req.body.country || 'all';  // Add country parameter with default 'all'
+
+    console.log('Received parameters:', { startDate, endDate, country });
+
     // Input validation
     if (!startDate || !endDate) {
         console.log('Missing date parameters');
         return res.status(400).json({ message: 'Start date and end date are required' });
     }
-    
+
     // Validate date format (MM-DD)
     const dateFormatRegex = /^(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])$/;
     if (!dateFormatRegex.test(startDate) || !dateFormatRegex.test(endDate)) {
         console.log('Invalid date format received:', { startDate, endDate });
         return res.status(400).json({ message: 'Invalid date format. Use MM-DD format.' });
     }
-    
+
     // Construct the absolute path to the Python script
     const scriptPath = path.join(__dirname, '..', 'calculateAllHistory.py');
-    
     console.log('Executing Python script:', scriptPath);
-    
-    // Execute the Python script with the provided dates
-    exec(`python "${scriptPath}" ${startDate} ${endDate}`, {
-        cwd: path.join(__dirname, '..')
-    }, (error, stdout, stderr) => {
+
+    // Execute the Python script with the provided dates and country
+    exec(`python "${scriptPath}" ${startDate} ${endDate} ${country}`, 
+         { cwd: path.join(__dirname, '..') },
+         (error, stdout, stderr) => {
         if (error) {
             console.error('Python script execution error:', error);
             console.error('Stderr:', stderr);
             return res.status(500).json({ message: 'Error calculating snowfall', error: error.message });
         }
-        
+
         if (stderr) {
             console.error('Python script stderr:', stderr);
         }
-        
+
         try {
             // Split output into lines and process only relevant lines
             const lines = stdout.split('\n');
             const results = [];
-            
+
             for (const line of lines) {
                 if (!line.startsWith('Location:')) continue;
                 
@@ -408,15 +409,17 @@ exports.calculateAllHistory = (req, res) => {
                     }
                 }
             }
-            
+
             console.log('Final results:', results); // Debug log
-            
+
             if (results.length > 0) {
                 res.json({ results });
             } else {
-                res.json({
-                    results: [],
-                    message: 'No data found for the specified dates.'
+                res.json({ 
+                    results: [], 
+                    message: country === 'all' 
+                        ? 'No data found for the specified dates.' 
+                        : `No data found for ${country} in the specified dates.`
                 });
             }
         } catch (parseError) {
@@ -429,4 +432,3 @@ exports.calculateAllHistory = (req, res) => {
         }
     });
 };
-

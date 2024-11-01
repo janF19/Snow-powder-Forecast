@@ -8,10 +8,10 @@ import contextlib
 # Set UTF-8 encoding for stdout
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
-def calculate_snowfall_stats(start_date, end_date, top_n=20):
+def calculate_snowfall_stats(start_date, end_date, country='all', top_n=20):
     """
     Calculate snowfall statistics for ski resorts within a date range.
-    Returns top N resorts by average snowfall.
+    Returns top N resorts by average snowfall for the specified country.
     """
     try:
         # Load the CSV file
@@ -38,7 +38,6 @@ def calculate_snowfall_stats(start_date, end_date, top_n=20):
                 ((df['date'].dt.month == end_date.month) & (df['date'].dt.day <= end_date.day))
             )
         else:
-            # Handle cases spanning across years (e.g., Dec to Jan)
             mask = (
                 ((df['date'].dt.month > start_date.month) |
                  ((df['date'].dt.month == start_date.month) & (df['date'].dt.day >= start_date.day))) |
@@ -47,6 +46,10 @@ def calculate_snowfall_stats(start_date, end_date, top_n=20):
             )
         
         filtered_df = df[mask]
+        
+        # Apply country filter if specified
+        if country.lower() != 'all':
+            filtered_df = filtered_df[filtered_df['country'].str.lower() == country.lower()]
         
         # Calculate days in period
         if start_date.month == 12 and end_date.month < 12:
@@ -78,10 +81,8 @@ def calculate_snowfall_stats(start_date, end_date, top_n=20):
         resort_stats = resort_stats.nlargest(top_n, 'avg_snowfall')
         
         # Format results for output
-        results = []
         for _, row in resort_stats.iterrows():
             resort_name = f"{row['resort']} ({row['elevation']}m)"
-            # Remove any problematic characters
             resort_name = resort_name.replace('\u200b', '').replace('\u2010', '-')
             country = row['country'].replace('\u200b', '').replace('\u2010', '-')
             
@@ -91,11 +92,12 @@ def calculate_snowfall_stats(start_date, end_date, top_n=20):
         print(f"An error occurred: {e}", file=sys.stderr)
 
 if __name__ == '__main__':
-    if len(sys.argv) != 3:
-        print("Usage: python script.py <start_date> <end_date>", file=sys.stderr)
+    if len(sys.argv) not in [3, 4]:
+        print("Usage: python script.py <start_date> <end_date> [country]", file=sys.stderr)
         sys.exit(1)
     
     start_date = sys.argv[1]  # MM-DD format
     end_date = sys.argv[2]    # MM-DD format
+    country = sys.argv[3] if len(sys.argv) > 3 else 'all'
     
-    calculate_snowfall_stats(start_date, end_date)
+    calculate_snowfall_stats(start_date, end_date, country)

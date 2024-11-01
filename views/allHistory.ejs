@@ -6,7 +6,28 @@
     <title>History Data</title>
     <link rel="stylesheet" href="/styles/indexStyle.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
-    
+    <style>
+        .resort-cell {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .country-flag {
+            width: 20px;
+            height: 15px;
+            object-fit: cover;
+            vertical-align: middle;
+        }
+        .filter-container {
+            margin: 20px 0;
+        }
+        .country-select {
+            padding: 8px;
+            margin-left: 10px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+    </style>
 </head>
 <body>
     <%- include('partials/navbar') %>
@@ -128,7 +149,7 @@
 
         async function handleFormSubmit(event) {
             event.preventDefault();
-
+        
             const form = event.target;
             const formData = new FormData(form);
             
@@ -138,29 +159,28 @@
             const startDate = `${String(startDateFull.getMonth() + 1).padStart(2, '0')}-${String(startDateFull.getDate()).padStart(2, '0')}`;
             const endDate = `${String(endDateFull.getMonth() + 1).padStart(2, '0')}-${String(endDateFull.getDate()).padStart(2, '0')}`;
             const selectedCountry = document.getElementById('countryFilter').value;
-
+        
             try {
                 const response = await fetch('/calculate-history-all', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/x-www-form-urlencoded',
                     },
-                    body: `startDate=${encodeURIComponent(startDate)}&endDate=${encodeURIComponent(endDate)}`,
+                    body: `startDate=${encodeURIComponent(startDate)}&endDate=${encodeURIComponent(endDate)}&country=${encodeURIComponent(selectedCountry)}`,
                 });
-
+        
                 if (!response.ok) {
                     const errorData = await response.json();
                     throw new Error(errorData.message || 'Server error');
                 }
-
+        
                 const data = await response.json();
                 console.log('Received data:', data);
                 
                 if (data.results && data.results.length > 0) {
-                    allResults = data.results; // Store all results
-                    filterAndDisplayResults(selectedCountry); // Display filtered results
+                    displayResults(data.results);
                 } else {
-                    document.getElementById('result').innerHTML = `<h2>${data.message || 'No snowfall data available for the selected dates.'}</h2>`;
+                    document.getElementById('result').innerHTML = `<h2>${data.message || 'No snowfall data available for the selected criteria.'}</h2>`;
                 }
             } catch (error) {
                 console.error('Error:', error);
