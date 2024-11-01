@@ -1,0 +1,2942 @@
+[
+    {
+        "resort": "Alpendorf (Ski amedé)",
+        "latitude": "47.35",
+        "longitude": "13.20",
+        "topLiftElevation_m": 1850,
+        "midLiftElevation_m": 1342,
+        "botLiftElevation_m": 835,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/St-Johann-in-Pongau/6day/top"
+    },
+    {
+        "resort": "Oberau (Wildschönau)",
+        "latitude": "47.44",
+        "longitude": "12.05",
+        "topLiftElevation_m": 1199,
+        "midLiftElevation_m": 1068,
+        "botLiftElevation_m": 936,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Oberau/6day/top"
+    },
+    {
+        "resort": "Dachstein West",
+        "latitude": "47.42",
+        "longitude": "13.65",
+        "topLiftElevation_m": 2701,
+        "midLiftElevation_m": 1950,
+        "botLiftElevation_m": 1199,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Dachstein-Glacier/6day/top"
+    },
+    {
+        "resort": "Kobla-Bohinj",
+        "latitude": "46.28",
+        "longitude": "13.96",
+        "topLiftElevation_m": 1479,
+        "midLiftElevation_m": 1010,
+        "botLiftElevation_m": 540,
+        "Country": "Slovenia",
+        "url": "https://www.snow-forecast.com/resorts/Kobla/6day/top"
+    },
+    {
+        "resort": "Aillons-Margériaz",
+        "latitude": "45.63",
+        "longitude": "6.03",
+        "topLiftElevation_m": 1900,
+        "midLiftElevation_m": 1449,
+        "botLiftElevation_m": 1000,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/Aillons-Margeriaz/6day/top"
+    },
+    {
+        "resort": "Kaiseregg-​Riggisalp-Schwarzsee",
+        "latitude": "46.67",
+        "longitude": "7.28",
+        "topLiftElevation_m": 2090,
+        "midLiftElevation_m": 1654,
+        "botLiftElevation_m": 1219,
+        "Country": "Switzerland",
+        "url": "https://www.snow-forecast.com/resorts/Schwarzsee/6day/top"
+    },
+    {
+        "resort": "St. Pierre de Chartreuse-Le Planolet",
+        "latitude": "45.33",
+        "longitude": "5.82",
+        "topLiftElevation_m": 1789,
+        "midLiftElevation_m": 1344,
+        "botLiftElevation_m": 900,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/SaintPierreDeChartreuse/6day/top"
+    },
+    {
+        "resort": "Buchenberg-Buching-Halblech-",
+        "latitude": "47.62",
+        "longitude": "10.80",
+        "topLiftElevation_m": 1139,
+        "midLiftElevation_m": 975,
+        "botLiftElevation_m": 810,
+        "Country": "Germany",
+        "url": "https://www.snow-forecast.com/resorts/Buching/6day/top"
+    },
+    {
+        "resort": "Méribel (Les 3 Vallées)",
+        "latitude": "45.39",
+        "longitude": "6.59",
+        "topLiftElevation_m": 2952,
+        "midLiftElevation_m": 2202,
+        "botLiftElevation_m": 1452,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/Meribel/6day/top"
+    },
+    {
+        "resort": "​Les Menuires (Les 3 Vallées)",
+        "latitude": "45.31",
+        "longitude": "6.54",
+        "topLiftElevation_m": 2850,
+        "midLiftElevation_m": 2268,
+        "botLiftElevation_m": 1684,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/Les-Menuires/6day/top"
+    },
+    {
+        "resort": "Les Sybelles-Le Corbier-​La Toussuire-​Les Bottières-​St Colomban des Villards-​St Sorlin-​St Jean d’Arves",
+        "latitude": "45.24",
+        "longitude": "6.27",
+        "topLiftElevation_m": 2264,
+        "midLiftElevation_m": 1907,
+        "botLiftElevation_m": 1550,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/Le-Corbier/6day/top"
+    },
+    {
+        "resort": "Le Grand Massif-Flaine-​Les Carroz-​Morillon-​Samoëns-​Sixt",
+        "latitude": "46.01",
+        "longitude": "6.69",
+        "topLiftElevation_m": 2500,
+        "midLiftElevation_m": 2042,
+        "botLiftElevation_m": 1584,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/Les-Carroz/6day/top"
+    },
+    {
+        "resort": "Megève-​Saint-Gervais",
+        "latitude": "45.90",
+        "longitude": "6.72",
+        "topLiftElevation_m": 2350,
+        "midLiftElevation_m": 1875,
+        "botLiftElevation_m": 1399,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/SaintGervaisMontBlanc/6day/top"
+    },
+    {
+        "resort": "Laax-​Flims-​Falera",
+        "latitude": "46.82",
+        "longitude": "9.26",
+        "topLiftElevation_m": 3017,
+        "midLiftElevation_m": 2058,
+        "botLiftElevation_m": 1100,
+        "Country": "Switzerland",
+        "url": "https://www.snow-forecast.com/resorts/Flims-Laax/6day/top"
+    },
+    {
+        "resort": "Vars-​Risoul-La Forêt Blanche",
+        "latitude": "44.62",
+        "longitude": "6.68",
+        "topLiftElevation_m": 2766,
+        "midLiftElevation_m": 2314,
+        "botLiftElevation_m": 1861,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/Vars/6day/top"
+    },
+    {
+        "resort": "Kicking Horse",
+        "latitude": "51.30",
+        "longitude": "117.05",
+        "topLiftElevation_m": 2505,
+        "midLiftElevation_m": 1848,
+        "botLiftElevation_m": 1189,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/Kicking-Horse/6day/top"
+    },
+    {
+        "resort": "Le Grand Domaine-Valmorel-​Doucy-​Celliers-​St François Longchamp",
+        "latitude": "45.42",
+        "longitude": "6.36",
+        "topLiftElevation_m": 2550,
+        "midLiftElevation_m": 2100,
+        "botLiftElevation_m": 1650,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/SaintFrancoisLongchamp/6day/top"
+    },
+    {
+        "resort": "Galibier Thabor-Valmeinier-​Valloire",
+        "latitude": "45.18",
+        "longitude": "6.48",
+        "topLiftElevation_m": 2600,
+        "midLiftElevation_m": 2050,
+        "botLiftElevation_m": 1500,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/Valmeinier/6day/top"
+    },
+    {
+        "resort": "Zillertal Arena-Zell am Ziller-​Gerlos-​Königsleiten-​Hochkrimml",
+        "latitude": "47.24",
+        "longitude": "11.90",
+        "topLiftElevation_m": 2499,
+        "midLiftElevation_m": 1936,
+        "botLiftElevation_m": 1372,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Zell-am-Ziller/6day/top"
+    },
+    {
+        "resort": "Auron-Saint-Etienne-de-Tinée-",
+        "latitude": "44.23",
+        "longitude": "6.93",
+        "topLiftElevation_m": 2449,
+        "midLiftElevation_m": 2025,
+        "botLiftElevation_m": 1600,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/Auron/6day/top"
+    },
+    {
+        "resort": "Alta Badia",
+        "latitude": "46.60",
+        "longitude": "11.88",
+        "topLiftElevation_m": 2778,
+        "midLiftElevation_m": 2050,
+        "botLiftElevation_m": 1324,
+        "Country": "Italy",
+        "url": "https://www.snow-forecast.com/resorts/Pedraces/6day/top"
+    },
+    {
+        "resort": "La Clusaz-​Manigod",
+        "latitude": "45.90",
+        "longitude": "6.42",
+        "topLiftElevation_m": 2500,
+        "midLiftElevation_m": 1742,
+        "botLiftElevation_m": 984,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/La-Clusaz/6day/top"
+    },
+    {
+        "resort": "Espace Villard Corrençon-Villard-de-Lans-​Corrençon-en-Vercors",
+        "latitude": "45.03",
+        "longitude": "5.53",
+        "topLiftElevation_m": 2171,
+        "midLiftElevation_m": 1666,
+        "botLiftElevation_m": 1160,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/CorrenconenVercors/6day/top"
+    },
+    {
+        "resort": "Val Cenis-Lanslevillard-​Lanslebourg-​Termignon",
+        "latitude": "45.29",
+        "longitude": "6.87",
+        "topLiftElevation_m": 2801,
+        "midLiftElevation_m": 2100,
+        "botLiftElevation_m": 1399,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/Val-Cenis/6day/top"
+    },
+    {
+        "resort": "Isola 2000",
+        "latitude": "44.19",
+        "longitude": "7.16",
+        "topLiftElevation_m": 2610,
+        "midLiftElevation_m": 2205,
+        "botLiftElevation_m": 1800,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/Isola-2000/6day/top"
+    },
+    {
+        "resort": "Obersaxen-​Mundaun-​Val Lumnezia",
+        "latitude": "46.75",
+        "longitude": "9.15",
+        "topLiftElevation_m": 2300,
+        "midLiftElevation_m": 1750,
+        "botLiftElevation_m": 1199,
+        "Country": "Switzerland",
+        "url": "https://www.snow-forecast.com/resorts/Obersaxen-Mundaun-ValLumnezia/6day/top"
+    },
+    {
+        "resort": "Les 7 Laux-Prapoutel-​Le Pleynet-​Pipay",
+        "latitude": "45.22",
+        "longitude": "6.08",
+        "topLiftElevation_m": 2399,
+        "midLiftElevation_m": 1875,
+        "botLiftElevation_m": 1349,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/Les7Laux/6day/top"
+    },
+    {
+        "resort": "Corvatsch-​Furtschellas",
+        "latitude": "46.41",
+        "longitude": "9.82",
+        "topLiftElevation_m": 3303,
+        "midLiftElevation_m": 2550,
+        "botLiftElevation_m": 1797,
+        "Country": "Switzerland",
+        "url": "https://www.snow-forecast.com/resorts/Corvatsch-Furtschellas/6day/top"
+    },
+    {
+        "resort": "Nassfeld-Hermagor",
+        "latitude": "46.57",
+        "longitude": "13.28",
+        "topLiftElevation_m": 2018,
+        "midLiftElevation_m": 1313,
+        "botLiftElevation_m": 609,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Nassfeld/6day/top"
+    },
+    {
+        "resort": "Mondolè Ski-Artesina-​Frabosa Soprana-​Prato Nevoso",
+        "latitude": "44.25",
+        "longitude": "7.79",
+        "topLiftElevation_m": 2150,
+        "midLiftElevation_m": 1825,
+        "botLiftElevation_m": 1500,
+        "Country": "Italy",
+        "url": "https://www.snow-forecast.com/resorts/Prato-Nevoso/6day/top"
+    },
+    {
+        "resort": "Aletsch Arena-Riederalp-​Bettmeralp-​Fiesch Eggishorn",
+        "latitude": "46.43",
+        "longitude": "8.08",
+        "topLiftElevation_m": 3332,
+        "midLiftElevation_m": 2276,
+        "botLiftElevation_m": 1219,
+        "Country": "Switzerland",
+        "url": "https://www.snow-forecast.com/resorts/Fiesch-Eggishorn-Aletsch/6day/top"
+    },
+    {
+        "resort": "Bad Kleinkirchheim-​St. Oswald",
+        "latitude": "46.81",
+        "longitude": "13.79",
+        "topLiftElevation_m": 2054,
+        "midLiftElevation_m": 1577,
+        "botLiftElevation_m": 1100,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Bad-Kleinkirchheim/6day/top"
+    },
+    {
+        "resort": "Bardonecchia",
+        "latitude": "45.08",
+        "longitude": "6.70",
+        "topLiftElevation_m": 2750,
+        "midLiftElevation_m": 2031,
+        "botLiftElevation_m": 1312,
+        "Country": "Italy",
+        "url": "https://www.snow-forecast.com/resorts/Bardonecchia/6day/top"
+    },
+    {
+        "resort": "Saint-Lary-Soulan",
+        "latitude": "42.82",
+        "longitude": "0.32",
+        "topLiftElevation_m": 2449,
+        "midLiftElevation_m": 2075,
+        "botLiftElevation_m": 1701,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/SaintLarySoulan/6day/top"
+    },
+    {
+        "resort": "Orcières Merlette 1850",
+        "latitude": "44.70",
+        "longitude": "6.32",
+        "topLiftElevation_m": 2725,
+        "midLiftElevation_m": 2288,
+        "botLiftElevation_m": 1850,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/Orcieres/6day/top"
+    },
+    {
+        "resort": "Dévoluy-Superdévoluy-​La Joue du Loup",
+        "latitude": "44.65",
+        "longitude": "5.88",
+        "topLiftElevation_m": 2500,
+        "midLiftElevation_m": 2000,
+        "botLiftElevation_m": 1500,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/Devoluy/6day/top"
+    },
+    {
+        "resort": "Grand Tourmalet-​Pic du Midi-La Mongie-​Barèges",
+        "latitude": "42.90",
+        "longitude": "0.06",
+        "topLiftElevation_m": 2500,
+        "midLiftElevation_m": 1875,
+        "botLiftElevation_m": 1249,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/Bareges/6day/top"
+    },
+    {
+        "resort": "Parsenn (Davos Klosters)",
+        "latitude": "46.81",
+        "longitude": "9.84",
+        "topLiftElevation_m": 2844,
+        "midLiftElevation_m": 2202,
+        "botLiftElevation_m": 1559,
+        "Country": "Switzerland",
+        "url": "https://www.snow-forecast.com/resorts/Davos/6day/top"
+    },
+    {
+        "resort": "Alto Sangro-Roccaraso-​Rivisondoli",
+        "latitude": "41.85",
+        "longitude": "14.08",
+        "topLiftElevation_m": 2140,
+        "midLiftElevation_m": 1894,
+        "botLiftElevation_m": 1650,
+        "Country": "Italy",
+        "url": "https://www.snow-forecast.com/resorts/Roccaraso/6day/top"
+    },
+    {
+        "resort": "Chamrousse",
+        "latitude": "45.11",
+        "longitude": "5.87",
+        "topLiftElevation_m": 2256,
+        "midLiftElevation_m": 1828,
+        "botLiftElevation_m": 1399,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/Chamrousse/6day/top"
+    },
+    {
+        "resort": "Valberg-​Beuil les Launes",
+        "latitude": "44.10",
+        "longitude": "6.98",
+        "topLiftElevation_m": 1725,
+        "midLiftElevation_m": 1577,
+        "botLiftElevation_m": 1430,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/BeuilLesLaunes/6day/top"
+    },
+    {
+        "resort": "Adelboden-​Lenk-Chuenisbärgli-​Silleren-​Hahnenmoos-​Metsch",
+        "latitude": "46.50",
+        "longitude": "7.55",
+        "topLiftElevation_m": 1974,
+        "midLiftElevation_m": 1616,
+        "botLiftElevation_m": 1259,
+        "Country": "Switzerland",
+        "url": "https://www.snow-forecast.com/resorts/Adelboden/6day/top"
+    },
+    {
+        "resort": "Rinderberg-​Saanerslochgrat-​Horneggli-Zweisimmen-​Saanenmöser-​Schönried-​St. Stephan",
+        "latitude": "46.49",
+        "longitude": "7.30",
+        "topLiftElevation_m": 2156,
+        "midLiftElevation_m": 1548,
+        "botLiftElevation_m": 940,
+        "Country": "Switzerland",
+        "url": "https://www.snow-forecast.com/resorts/Gstaad-Rinderberg-Saanerslochgrat/6day/top"
+    },
+    {
+        "resort": "Le Grand Bornand",
+        "latitude": "45.94",
+        "longitude": "6.42",
+        "topLiftElevation_m": 2100,
+        "midLiftElevation_m": 1550,
+        "botLiftElevation_m": 1000,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/Le-Grand-Bornand/6day/top"
+    },
+    {
+        "resort": "Kaltenbach-Hochzillertal-​Hochfügen-SKi-optimal-",
+        "latitude": "47.27",
+        "longitude": "11.74",
+        "topLiftElevation_m": 2218,
+        "midLiftElevation_m": 1385,
+        "botLiftElevation_m": 554,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/HochzillertalKaltenbach/6day/top"
+    },
+    {
+        "resort": "Grimentz-​Zinal",
+        "latitude": "46.18",
+        "longitude": "7.58",
+        "topLiftElevation_m": 3001,
+        "midLiftElevation_m": 2286,
+        "botLiftElevation_m": 1570,
+        "Country": "Switzerland",
+        "url": "https://www.snow-forecast.com/resorts/Grimentz/6day/top"
+    },
+    {
+        "resort": "Civetta-Alleghe-​Selva di Cadore-​Palafavera-​Zoldo",
+        "latitude": "46.38",
+        "longitude": "12.05",
+        "topLiftElevation_m": 2100,
+        "midLiftElevation_m": 1550,
+        "botLiftElevation_m": 1000,
+        "Country": "Italy",
+        "url": "https://www.snow-forecast.com/resorts/Civetta/6day/top"
+    },
+    {
+        "resort": "Ax les Thermes",
+        "latitude": "42.72",
+        "longitude": "1.83",
+        "topLiftElevation_m": 2399,
+        "midLiftElevation_m": 1900,
+        "botLiftElevation_m": 1399,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/Ax-les-Thermes/6day/top"
+    },
+    {
+        "resort": "Damüls Mellau",
+        "latitude": "47.28",
+        "longitude": "9.88",
+        "topLiftElevation_m": 2009,
+        "midLiftElevation_m": 1338,
+        "botLiftElevation_m": 669,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Damuls/6day/top"
+    },
+    {
+        "resort": "Zell am See",
+        "latitude": "47.32",
+        "longitude": "12.78",
+        "topLiftElevation_m": 2000,
+        "midLiftElevation_m": 1378,
+        "botLiftElevation_m": 758,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Zell-am-See/6day/top"
+    },
+    {
+        "resort": "Puy St. Vincent",
+        "latitude": "44.82",
+        "longitude": "6.49",
+        "topLiftElevation_m": 2750,
+        "midLiftElevation_m": 2075,
+        "botLiftElevation_m": 1399,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/Puy-St-Vincent/6day/top"
+    },
+    {
+        "resort": "Folgaria-​Fiorentini",
+        "latitude": "46.07",
+        "longitude": "11.12",
+        "topLiftElevation_m": 2000,
+        "midLiftElevation_m": 1600,
+        "botLiftElevation_m": 1199,
+        "Country": "Italy",
+        "url": "https://www.snow-forecast.com/resorts/Folgaria/6day/top"
+    },
+    {
+        "resort": "Titlis-Engelberg",
+        "latitude": "46.82",
+        "longitude": "8.40",
+        "topLiftElevation_m": 3020,
+        "midLiftElevation_m": 2085,
+        "botLiftElevation_m": 1150,
+        "Country": "Switzerland",
+        "url": "https://www.snow-forecast.com/resorts/Engelberg/6day/top"
+    },
+    {
+        "resort": "Nauders am Reschenpass-Bergkastel",
+        "latitude": "46.88",
+        "longitude": "10.52",
+        "topLiftElevation_m": 2850,
+        "midLiftElevation_m": 2125,
+        "botLiftElevation_m": 1399,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Nauders/6day/top"
+    },
+    {
+        "resort": "Grossarltal-​Dorfgastein",
+        "latitude": "47.24",
+        "longitude": "13.20",
+        "topLiftElevation_m": 2033,
+        "midLiftElevation_m": 1445,
+        "botLiftElevation_m": 860,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/GrossarlDorfgastein/6day/top"
+    },
+    {
+        "resort": "Katschberg",
+        "latitude": "47.05",
+        "longitude": "13.61",
+        "topLiftElevation_m": 2219,
+        "midLiftElevation_m": 1640,
+        "botLiftElevation_m": 1060,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Katschberg-Aineck/6day/top"
+    },
+    {
+        "resort": "Valfréjus",
+        "latitude": "45.17",
+        "longitude": "6.66",
+        "topLiftElevation_m": 2737,
+        "midLiftElevation_m": 2143,
+        "botLiftElevation_m": 1550,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/Valfrejus/6day/top"
+    },
+    {
+        "resort": "Savognin",
+        "latitude": "46.60",
+        "longitude": "9.60",
+        "topLiftElevation_m": 3151,
+        "midLiftElevation_m": 2271,
+        "botLiftElevation_m": 1392,
+        "Country": "Switzerland",
+        "url": "https://www.snow-forecast.com/resorts/Savognin/6day/top"
+    },
+    {
+        "resort": "Scuol-Motta Naluns",
+        "latitude": "46.80",
+        "longitude": "10.30",
+        "topLiftElevation_m": 2750,
+        "midLiftElevation_m": 2000,
+        "botLiftElevation_m": 1249,
+        "Country": "Switzerland",
+        "url": "https://www.snow-forecast.com/resorts/ScuolEngadin/6day/top"
+    },
+    {
+        "resort": "Passo San Pellegrino-​Falcade",
+        "latitude": "46.38",
+        "longitude": "11.78",
+        "topLiftElevation_m": 2513,
+        "midLiftElevation_m": 2194,
+        "botLiftElevation_m": 1875,
+        "Country": "Italy",
+        "url": "https://www.snow-forecast.com/resorts/PassoSanPellegrinoMoena/6day/top"
+    },
+    {
+        "resort": "Piau Engaly",
+        "latitude": "42.78",
+        "longitude": "0.16",
+        "topLiftElevation_m": 2500,
+        "midLiftElevation_m": 1960,
+        "botLiftElevation_m": 1420,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/Piau-Engaly/6day/top"
+    },
+    {
+        "resort": "Flumserberg",
+        "latitude": "47.09",
+        "longitude": "9.32",
+        "topLiftElevation_m": 2221,
+        "midLiftElevation_m": 1611,
+        "botLiftElevation_m": 1000,
+        "Country": "Switzerland",
+        "url": "https://www.snow-forecast.com/resorts/Flumserberg/6day/top"
+    },
+    {
+        "resort": "Super Sauze",
+        "latitude": "44.36",
+        "longitude": "6.69",
+        "topLiftElevation_m": 2399,
+        "midLiftElevation_m": 1900,
+        "botLiftElevation_m": 1399,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/SauzeSupersauze/6day/top"
+    },
+    {
+        "resort": "La Norma",
+        "latitude": "45.20",
+        "longitude": "6.70",
+        "topLiftElevation_m": 2750,
+        "midLiftElevation_m": 2050,
+        "botLiftElevation_m": 1349,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/LaNorma/6day/top"
+    },
+    {
+        "resort": "Arabba",
+        "latitude": "46.50",
+        "longitude": "11.87",
+        "topLiftElevation_m": 3269,
+        "midLiftElevation_m": 2358,
+        "botLiftElevation_m": 1445,
+        "Country": "Italy",
+        "url": "https://www.snow-forecast.com/resorts/Arabba/6day/top"
+    },
+    {
+        "resort": "Wildkogel-Neukirchen-​Bramberg",
+        "latitude": "47.28",
+        "longitude": "12.28",
+        "topLiftElevation_m": 2100,
+        "midLiftElevation_m": 1415,
+        "botLiftElevation_m": 729,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/SkiArenaWildkogel/6day/top"
+    },
+    {
+        "resort": "Hintertux Glacier",
+        "latitude": "47.08",
+        "longitude": "11.73",
+        "topLiftElevation_m": 3250,
+        "midLiftElevation_m": 2375,
+        "botLiftElevation_m": 1500,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Hintertux/6day/top"
+    },
+    {
+        "resort": "Disentis 3000",
+        "latitude": "46.70",
+        "longitude": "8.85",
+        "topLiftElevation_m": 3290,
+        "midLiftElevation_m": 2313,
+        "botLiftElevation_m": 1335,
+        "Country": "Switzerland",
+        "url": "https://www.snow-forecast.com/resorts/Disentis/6day/top"
+    },
+    {
+        "resort": "Belalp-Blatten",
+        "latitude": "46.37",
+        "longitude": "7.97",
+        "topLiftElevation_m": 3110,
+        "midLiftElevation_m": 2216,
+        "botLiftElevation_m": 1321,
+        "Country": "Switzerland",
+        "url": "https://www.snow-forecast.com/resorts/Belalp-Blatten-Naters/6day/top"
+    },
+    {
+        "resort": "San Martino di Castrozza",
+        "latitude": "46.27",
+        "longitude": "11.80",
+        "topLiftElevation_m": 2380,
+        "midLiftElevation_m": 1915,
+        "botLiftElevation_m": 1449,
+        "Country": "Italy",
+        "url": "https://www.snow-forecast.com/resorts/SanMartinoDiCastrozza/6day/top"
+    },
+    {
+        "resort": "Meiringen-Hasliberg",
+        "latitude": "46.73",
+        "longitude": "8.19",
+        "topLiftElevation_m": 2431,
+        "midLiftElevation_m": 1826,
+        "botLiftElevation_m": 1219,
+        "Country": "Switzerland",
+        "url": "https://www.snow-forecast.com/resorts/Meiringen/6day/top"
+    },
+    {
+        "resort": "Toggenburg-Wildhaus-​Unterwasser-​Alt St. Johann",
+        "latitude": "47.20",
+        "longitude": "9.32",
+        "topLiftElevation_m": 2627,
+        "midLiftElevation_m": 1836,
+        "botLiftElevation_m": 1045,
+        "Country": "Switzerland",
+        "url": "https://www.snow-forecast.com/resorts/AltStJohannToggenburg/6day/top"
+    },
+    {
+        "resort": "Alpe di Siusi-Seiser Alm-",
+        "latitude": "46.54",
+        "longitude": "11.61",
+        "topLiftElevation_m": 2210,
+        "midLiftElevation_m": 1905,
+        "botLiftElevation_m": 1600,
+        "Country": "Italy",
+        "url": "https://www.snow-forecast.com/resorts/AlpeDiSiusiSeiserAlm/6day/top"
+    },
+    {
+        "resort": "Le Lioran",
+        "latitude": "45.05",
+        "longitude": "2.85",
+        "topLiftElevation_m": 1856,
+        "midLiftElevation_m": 1513,
+        "botLiftElevation_m": 1171,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/Le-Lioran/6day/top"
+    },
+    {
+        "resort": "Saint Luc-​Chandolin-Anniviers-",
+        "latitude": "46.22",
+        "longitude": "7.60",
+        "topLiftElevation_m": 3026,
+        "midLiftElevation_m": 2356,
+        "botLiftElevation_m": 1684,
+        "Country": "Switzerland",
+        "url": "https://www.snow-forecast.com/resorts/St-Luc/6day/top"
+    },
+    {
+        "resort": "Les Karellis",
+        "latitude": "45.23",
+        "longitude": "6.41",
+        "topLiftElevation_m": 2550,
+        "midLiftElevation_m": 2075,
+        "botLiftElevation_m": 1600,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/LesKarellis/6day/top"
+    },
+    {
+        "resort": "Peyragudes",
+        "latitude": "42.79",
+        "longitude": "0.47",
+        "topLiftElevation_m": 2399,
+        "midLiftElevation_m": 2000,
+        "botLiftElevation_m": 1600,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/Peyragudes/6day/top"
+    },
+    {
+        "resort": "Leysin",
+        "latitude": "46.34",
+        "longitude": "7.00",
+        "topLiftElevation_m": 2205,
+        "midLiftElevation_m": 1728,
+        "botLiftElevation_m": 1249,
+        "Country": "Switzerland",
+        "url": "https://www.snow-forecast.com/resorts/Leysin/6day/top"
+    },
+    {
+        "resort": "Ponte di Legno-Passo ​Tonale-​Presena Glacier-​Temù-Pontedilegno-Tonale-",
+        "latitude": "46.30",
+        "longitude": "10.58",
+        "topLiftElevation_m": 3100,
+        "midLiftElevation_m": 2492,
+        "botLiftElevation_m": 1885,
+        "Country": "Italy",
+        "url": "https://www.snow-forecast.com/resorts/Passo-Tonale/6day/top"
+    },
+    {
+        "resort": "Eggli-​La Videmanette-Gstaad-​Saanen-​Rougemont",
+        "latitude": "46.49",
+        "longitude": "7.21",
+        "topLiftElevation_m": 2555,
+        "midLiftElevation_m": 1887,
+        "botLiftElevation_m": 1219,
+        "Country": "Switzerland",
+        "url": "https://www.snow-forecast.com/resorts/Gstaad-Saanen-Rougemont/6day/top"
+    },
+    {
+        "resort": "Anzère",
+        "latitude": "46.29",
+        "longitude": "7.40",
+        "topLiftElevation_m": 2420,
+        "midLiftElevation_m": 1960,
+        "botLiftElevation_m": 1500,
+        "Country": "Switzerland",
+        "url": "https://www.snow-forecast.com/resorts/Anzere/6day/top"
+    },
+    {
+        "resort": "Font-Romeu-​Bolquère Pyrénées 2000",
+        "latitude": "42.50",
+        "longitude": "2.08",
+        "topLiftElevation_m": 2001,
+        "midLiftElevation_m": 1850,
+        "botLiftElevation_m": 1700,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/BolquerePyrenees2000/6day/top"
+    },
+    {
+        "resort": "Brévent-​Flégère-Chamonix-",
+        "latitude": "45.94",
+        "longitude": "6.88",
+        "topLiftElevation_m": 2525,
+        "midLiftElevation_m": 1778,
+        "botLiftElevation_m": 1029,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/Brevent-Flegere/6day/top"
+    },
+    {
+        "resort": "Les Houches-​Saint-Gervais-Prarion-​Bellevue-Chamonix-",
+        "latitude": "45.89",
+        "longitude": "6.79",
+        "topLiftElevation_m": 1860,
+        "midLiftElevation_m": 1434,
+        "botLiftElevation_m": 1007,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/Les-Houches/6day/top"
+    },
+    {
+        "resort": "Belvedere-​Col Rodella-​Ciampac-​Buffaure-Canazei-​Campitello-​Alba-​Pozza di Fassa",
+        "latitude": "46.47",
+        "longitude": "11.77",
+        "topLiftElevation_m": 2630,
+        "midLiftElevation_m": 2047,
+        "botLiftElevation_m": 1465,
+        "Country": "Italy",
+        "url": "https://www.snow-forecast.com/resorts/Canazei/6day/top"
+    },
+    {
+        "resort": "Lauchernalp-Lötschental",
+        "latitude": "46.42",
+        "longitude": "7.83",
+        "topLiftElevation_m": 3111,
+        "midLiftElevation_m": 2125,
+        "botLiftElevation_m": 1142,
+        "Country": "Switzerland",
+        "url": "https://www.snow-forecast.com/resorts/Lauchernalp-Lotschental/6day/top"
+    },
+    {
+        "resort": "Grossglockner Heiligenblut",
+        "latitude": "47.03",
+        "longitude": "12.83",
+        "topLiftElevation_m": 2902,
+        "midLiftElevation_m": 2102,
+        "botLiftElevation_m": 1301,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Heiligenblut/6day/top"
+    },
+    {
+        "resort": "Brandnertal-Brand-​Bürserberg",
+        "latitude": "47.11",
+        "longitude": "9.75",
+        "topLiftElevation_m": 2000,
+        "midLiftElevation_m": 1445,
+        "botLiftElevation_m": 890,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Brand/6day/top"
+    },
+    {
+        "resort": "Alpe du Grand-Serre-La Morte",
+        "latitude": "45.02",
+        "longitude": "5.86",
+        "topLiftElevation_m": 2200,
+        "midLiftElevation_m": 1783,
+        "botLiftElevation_m": 1367,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/AlpeDuGrand-serre/6day/top"
+    },
+    {
+        "resort": "Les Angles",
+        "latitude": "42.58",
+        "longitude": "2.08",
+        "topLiftElevation_m": 2399,
+        "midLiftElevation_m": 2025,
+        "botLiftElevation_m": 1650,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/Les-Angles/6day/top"
+    },
+    {
+        "resort": "Aussois",
+        "latitude": "45.23",
+        "longitude": "6.75",
+        "topLiftElevation_m": 2750,
+        "midLiftElevation_m": 2125,
+        "botLiftElevation_m": 1500,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/Aussois/6day/top"
+    },
+    {
+        "resort": "First-Grindelwald",
+        "latitude": "46.63",
+        "longitude": "8.03",
+        "topLiftElevation_m": 2473,
+        "midLiftElevation_m": 1709,
+        "botLiftElevation_m": 945,
+        "Country": "Switzerland",
+        "url": "https://www.snow-forecast.com/resorts/Grindelwald/6day/top"
+    },
+    {
+        "resort": "Sörenberg-Rothorn-​Dorf",
+        "latitude": "46.83",
+        "longitude": "8.02",
+        "topLiftElevation_m": 2648,
+        "midLiftElevation_m": 2001,
+        "botLiftElevation_m": 1353,
+        "Country": "Switzerland",
+        "url": "https://www.snow-forecast.com/resorts/Sorenberg/6day/top"
+    },
+    {
+        "resort": "Riserva Bianca-Limone Piemonte",
+        "latitude": "44.20",
+        "longitude": "7.57",
+        "topLiftElevation_m": 2050,
+        "midLiftElevation_m": 1525,
+        "botLiftElevation_m": 1000,
+        "Country": "Italy",
+        "url": "https://www.snow-forecast.com/resorts/LimonePiemonte/6day/top"
+    },
+    {
+        "resort": "Gitschberg Jochtal",
+        "latitude": "46.86",
+        "longitude": "11.69",
+        "topLiftElevation_m": 2512,
+        "midLiftElevation_m": 1933,
+        "botLiftElevation_m": 1353,
+        "Country": "Italy",
+        "url": "https://www.snow-forecast.com/resorts/Gitschberg-Jochtal/6day/top"
+    },
+    {
+        "resort": "Schilthorn-Mürren-​Lauterbrunnen",
+        "latitude": "46.56",
+        "longitude": "7.89",
+        "topLiftElevation_m": 2969,
+        "midLiftElevation_m": 1882,
+        "botLiftElevation_m": 794,
+        "Country": "Switzerland",
+        "url": "https://www.snow-forecast.com/resorts/Murren/6day/top"
+    },
+    {
+        "resort": "Pila",
+        "latitude": "45.70",
+        "longitude": "7.32",
+        "topLiftElevation_m": 2750,
+        "midLiftElevation_m": 2100,
+        "botLiftElevation_m": 1449,
+        "Country": "Italy",
+        "url": "https://www.snow-forecast.com/resorts/Pila/6day/top"
+    },
+    {
+        "resort": "Brigels-​Waltensburg-​Andiast",
+        "latitude": "46.77",
+        "longitude": "9.07",
+        "topLiftElevation_m": 2417,
+        "midLiftElevation_m": 1760,
+        "botLiftElevation_m": 1103,
+        "Country": "Switzerland",
+        "url": "https://www.snow-forecast.com/resorts/Brigels-Waltensburg-Andiast/6day/top"
+    },
+    {
+        "resort": "Aprica",
+        "latitude": "46.15",
+        "longitude": "10.15",
+        "topLiftElevation_m": 2270,
+        "midLiftElevation_m": 1710,
+        "botLiftElevation_m": 1150,
+        "Country": "Italy",
+        "url": "https://www.snow-forecast.com/resorts/Aprica/6day/top"
+    },
+    {
+        "resort": "Bormio-Cima Bianca",
+        "latitude": "46.46",
+        "longitude": "10.37",
+        "topLiftElevation_m": 3012,
+        "midLiftElevation_m": 2118,
+        "botLiftElevation_m": 1224,
+        "Country": "Italy",
+        "url": "https://www.snow-forecast.com/resorts/Bormio/6day/top"
+    },
+    {
+        "resort": "Sedrun-Oberalp",
+        "latitude": "46.67",
+        "longitude": "8.74",
+        "topLiftElevation_m": 2350,
+        "midLiftElevation_m": 1925,
+        "botLiftElevation_m": 1500,
+        "Country": "Switzerland",
+        "url": "https://www.snow-forecast.com/resorts/SedrunOberalp/6day/top"
+    },
+    {
+        "resort": "Grosseck-​Speiereck-Mauterndorf-​St. Michael",
+        "latitude": "47.13",
+        "longitude": "13.65",
+        "topLiftElevation_m": 2399,
+        "midLiftElevation_m": 1750,
+        "botLiftElevation_m": 1100,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/GrobeckSpeiereck/6day/top"
+    },
+    {
+        "resort": "Hirmentaz-​Les Habères-Bellevaux-​Habère-Poche",
+        "latitude": "46.24",
+        "longitude": "6.47",
+        "topLiftElevation_m": 1602,
+        "midLiftElevation_m": 1278,
+        "botLiftElevation_m": 953,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/ValleeVerte/6day/top"
+    },
+    {
+        "resort": "Pragelato",
+        "latitude": "45.02",
+        "longitude": "6.95",
+        "topLiftElevation_m": 2700,
+        "midLiftElevation_m": 2100,
+        "botLiftElevation_m": 1500,
+        "Country": "Italy",
+        "url": "https://www.snow-forecast.com/resorts/Pragelato/6day/top"
+    },
+    {
+        "resort": "Porté Puymorens",
+        "latitude": "42.55",
+        "longitude": "1.83",
+        "topLiftElevation_m": 2471,
+        "midLiftElevation_m": 2036,
+        "botLiftElevation_m": 1600,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/Porte-Puymorens/6day/top"
+    },
+    {
+        "resort": "Mythenregion",
+        "latitude": "47.03",
+        "longitude": "8.68",
+        "topLiftElevation_m": 1858,
+        "midLiftElevation_m": 1278,
+        "botLiftElevation_m": 697,
+        "Country": "Switzerland",
+        "url": "https://www.snow-forecast.com/resorts/Mythenregion/6day/top"
+    },
+    {
+        "resort": "Zugspitze",
+        "latitude": "47.43",
+        "longitude": "10.98",
+        "topLiftElevation_m": 2830,
+        "midLiftElevation_m": 2155,
+        "botLiftElevation_m": 1480,
+        "Country": "Germany",
+        "url": "https://www.snow-forecast.com/resorts/Garmisch-Partenkirchen/6day/top"
+    },
+    {
+        "resort": "Jasná Nízke Tatry-Chopok",
+        "latitude": "48.96",
+        "longitude": "19.62",
+        "topLiftElevation_m": 2004,
+        "midLiftElevation_m": 1466,
+        "botLiftElevation_m": 929,
+        "Country": "Slovakia",
+        "url": "https://www.snow-forecast.com/resorts/Jasna-Chopok/6day/top"
+    },
+    {
+        "resort": "Steinplatte-​Winklmoosalm-Waidring-​Reit im Winkl",
+        "latitude": "47.68",
+        "longitude": "12.48",
+        "topLiftElevation_m": 1850,
+        "midLiftElevation_m": 1306,
+        "botLiftElevation_m": 764,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Reit-im-Winkl/6day/top"
+    },
+    {
+        "resort": "Rigi",
+        "latitude": "47.03",
+        "longitude": "8.47",
+        "topLiftElevation_m": 2090,
+        "midLiftElevation_m": 1881,
+        "botLiftElevation_m": 1672,
+        "Country": "Switzerland",
+        "url": "https://www.snow-forecast.com/resorts/Rigi/6day/top"
+    },
+    {
+        "resort": "Métabief",
+        "latitude": "46.78",
+        "longitude": "6.35",
+        "topLiftElevation_m": 1463,
+        "midLiftElevation_m": 1198,
+        "botLiftElevation_m": 932,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/Metabief/6day/top"
+    },
+    {
+        "resort": "Latemar-Obereggen-​Pampeago-​Predazzo",
+        "latitude": "46.37",
+        "longitude": "11.57",
+        "topLiftElevation_m": 2399,
+        "midLiftElevation_m": 1725,
+        "botLiftElevation_m": 1050,
+        "Country": "Italy",
+        "url": "https://www.snow-forecast.com/resorts/Ski-Center-Latemar/6day/top"
+    },
+    {
+        "resort": "Mariborsko Pohorje-Maribor",
+        "latitude": "46.51",
+        "longitude": "15.52",
+        "topLiftElevation_m": 1347,
+        "midLiftElevation_m": 836,
+        "botLiftElevation_m": 324,
+        "Country": "Slovenia",
+        "url": "https://www.snow-forecast.com/resorts/Mariborsko-Pohorje/6day/top"
+    },
+    {
+        "resort": "Praz de Lys-​Sommand-Taninges-​Mieussy-",
+        "latitude": "46.20",
+        "longitude": "6.59",
+        "topLiftElevation_m": 2000,
+        "midLiftElevation_m": 1750,
+        "botLiftElevation_m": 1500,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/PrazDeLysSommand/6day/top"
+    },
+    {
+        "resort": "Espace Dôle-La Dôle-​Les Tuffes",
+        "latitude": "46.43",
+        "longitude": "6.10",
+        "topLiftElevation_m": 1676,
+        "midLiftElevation_m": 1452,
+        "botLiftElevation_m": 1227,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/LaDole/6day/top"
+    },
+    {
+        "resort": "Kreischberg",
+        "latitude": "47.07",
+        "longitude": "14.03",
+        "topLiftElevation_m": 2107,
+        "midLiftElevation_m": 1498,
+        "botLiftElevation_m": 889,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Kreischberg/6day/top"
+    },
+    {
+        "resort": "Garmisch-Classic-Garmisch-Partenkirchen",
+        "latitude": "47.47",
+        "longitude": "11.10",
+        "topLiftElevation_m": 2050,
+        "midLiftElevation_m": 1374,
+        "botLiftElevation_m": 700,
+        "Country": "Germany",
+        "url": "https://www.snow-forecast.com/resorts/Garmisch-Classic/6day/top"
+    },
+    {
+        "resort": "Aiguille du Midi-Chamonix-",
+        "latitude": "45.92",
+        "longitude": "6.87",
+        "topLiftElevation_m": 3842,
+        "midLiftElevation_m": 2440,
+        "botLiftElevation_m": 1036,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/Chamonix/6day/top"
+    },
+    {
+        "resort": "Carezza Ski",
+        "latitude": "46.41",
+        "longitude": "11.59",
+        "topLiftElevation_m": 2124,
+        "midLiftElevation_m": 1938,
+        "botLiftElevation_m": 1753,
+        "Country": "Italy",
+        "url": "https://www.snow-forecast.com/resorts/PassodiCostalungaCarezza/6day/top"
+    },
+    {
+        "resort": "Pizol-Bad Ragaz-​Wangs",
+        "latitude": "47.00",
+        "longitude": "9.50",
+        "topLiftElevation_m": 2226,
+        "midLiftElevation_m": 1476,
+        "botLiftElevation_m": 726,
+        "Country": "Switzerland",
+        "url": "https://www.snow-forecast.com/resorts/BadRagaz/6day/top"
+    },
+    {
+        "resort": "SuperBesse-Puy de Sancy",
+        "latitude": "45.49",
+        "longitude": "2.91",
+        "topLiftElevation_m": 1849,
+        "midLiftElevation_m": 1600,
+        "botLiftElevation_m": 1349,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/Super-Besse/6day/top"
+    },
+    {
+        "resort": "Fellhorn-​Kanzelwand-Oberstdorf-​Riezlern",
+        "latitude": "47.33",
+        "longitude": "10.20",
+        "topLiftElevation_m": 1949,
+        "midLiftElevation_m": 1509,
+        "botLiftElevation_m": 1070,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/KanzelwandFellhorn/6day/top"
+    },
+    {
+        "resort": "Großglockner Resort Kals-Matrei",
+        "latitude": "47.01",
+        "longitude": "12.63",
+        "topLiftElevation_m": 2422,
+        "midLiftElevation_m": 1671,
+        "botLiftElevation_m": 920,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Grossglockner-Kals-Matrei/6day/top"
+    },
+    {
+        "resort": "Abetone-​Val di Luce",
+        "latitude": "44.13",
+        "longitude": "10.67",
+        "topLiftElevation_m": 1892,
+        "midLiftElevation_m": 1566,
+        "botLiftElevation_m": 1239,
+        "Country": "Italy",
+        "url": "https://www.snow-forecast.com/resorts/Abetone/6day/top"
+    },
+    {
+        "resort": "Gerlitzen",
+        "latitude": "46.69",
+        "longitude": "13.92",
+        "topLiftElevation_m": 1911,
+        "midLiftElevation_m": 1207,
+        "botLiftElevation_m": 504,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Gerlitzen/6day/top"
+    },
+    {
+        "resort": "Paganella-Andalo",
+        "latitude": "46.16",
+        "longitude": "11.00",
+        "topLiftElevation_m": 2125,
+        "midLiftElevation_m": 1584,
+        "botLiftElevation_m": 1042,
+        "Country": "Italy",
+        "url": "https://www.snow-forecast.com/resorts/Andalo/6day/top"
+    },
+    {
+        "resort": "Melchsee-Frutt-Kerns-",
+        "latitude": "46.78",
+        "longitude": "8.27",
+        "topLiftElevation_m": 2255,
+        "midLiftElevation_m": 1668,
+        "botLiftElevation_m": 1079,
+        "Country": "Switzerland",
+        "url": "https://www.snow-forecast.com/resorts/Melchsee-Frutt/6day/top"
+    },
+    {
+        "resort": "Arêches-Beaufort-",
+        "latitude": "45.68",
+        "longitude": "6.57",
+        "topLiftElevation_m": 2300,
+        "midLiftElevation_m": 1675,
+        "botLiftElevation_m": 1050,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/ArechesBeaufort/6day/top"
+    },
+    {
+        "resort": "Špindlerův Mlýn",
+        "latitude": "50.72",
+        "longitude": "15.60",
+        "topLiftElevation_m": 1310,
+        "midLiftElevation_m": 1011,
+        "botLiftElevation_m": 715,
+        "Country": "Czech Republic",
+        "url": "https://www.snow-forecast.com/resorts/SpindleruvMlyn/6day/top"
+    },
+    {
+        "resort": "Les Mosses-​La Lécherette",
+        "latitude": "46.40",
+        "longitude": "7.10",
+        "topLiftElevation_m": 1905,
+        "midLiftElevation_m": 1661,
+        "botLiftElevation_m": 1417,
+        "Country": "Switzerland",
+        "url": "https://www.snow-forecast.com/resorts/LesMosses-LaLecherette/6day/top"
+    },
+    {
+        "resort": "Cimone-Montecreto-​Sestola-​Le Polle",
+        "latitude": "44.18",
+        "longitude": "10.70",
+        "topLiftElevation_m": 2000,
+        "midLiftElevation_m": 1509,
+        "botLiftElevation_m": 1020,
+        "Country": "Italy",
+        "url": "https://www.snow-forecast.com/resorts/Cimone/6day/top"
+    },
+    {
+        "resort": "Luchon Superbagnères",
+        "latitude": "42.77",
+        "longitude": "0.58",
+        "topLiftElevation_m": 2261,
+        "midLiftElevation_m": 1850,
+        "botLiftElevation_m": 1440,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/Superbagneres/6day/top"
+    },
+    {
+        "resort": "Lélex-​Crozet",
+        "latitude": "46.30",
+        "longitude": "5.95",
+        "topLiftElevation_m": 1679,
+        "midLiftElevation_m": 1280,
+        "botLiftElevation_m": 879,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/Monts-Jura/6day/top"
+    },
+    {
+        "resort": "Gourette-Eaux Bonnes-",
+        "latitude": "42.97",
+        "longitude": "0.33",
+        "topLiftElevation_m": 2449,
+        "midLiftElevation_m": 1900,
+        "botLiftElevation_m": 1349,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/Gourette/6day/top"
+    },
+    {
+        "resort": "Rauriser Hochalmbahnen-Rauris",
+        "latitude": "47.24",
+        "longitude": "12.99",
+        "topLiftElevation_m": 2211,
+        "midLiftElevation_m": 1580,
+        "botLiftElevation_m": 950,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Rauris/6day/top"
+    },
+    {
+        "resort": "Hoch-Ybrig-Unteriberg-​Oberiberg",
+        "latitude": "47.01",
+        "longitude": "8.79",
+        "topLiftElevation_m": 2103,
+        "midLiftElevation_m": 1659,
+        "botLiftElevation_m": 1217,
+        "Country": "Switzerland",
+        "url": "https://www.snow-forecast.com/resorts/Hoch-Ybrig/6day/top"
+    },
+    {
+        "resort": "Meran 2000",
+        "latitude": "46.67",
+        "longitude": "11.15",
+        "topLiftElevation_m": 2351,
+        "midLiftElevation_m": 1976,
+        "botLiftElevation_m": 1600,
+        "Country": "Italy",
+        "url": "https://www.snow-forecast.com/resorts/Merano2000/6day/top"
+    },
+    {
+        "resort": "Nätschen-Andermatt",
+        "latitude": "46.65",
+        "longitude": "8.60",
+        "topLiftElevation_m": 2963,
+        "midLiftElevation_m": 2200,
+        "botLiftElevation_m": 1436,
+        "Country": "Switzerland",
+        "url": "https://www.snow-forecast.com/resorts/Andermatt/6day/top"
+    },
+    {
+        "resort": "Albiez-Montrond",
+        "latitude": "45.22",
+        "longitude": "6.33",
+        "topLiftElevation_m": 2200,
+        "midLiftElevation_m": 1850,
+        "botLiftElevation_m": 1500,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/AlbiezMontrond/6day/top"
+    },
+    {
+        "resort": "Tarvisio-Monte Lussari",
+        "latitude": "46.51",
+        "longitude": "13.59",
+        "topLiftElevation_m": 1780,
+        "midLiftElevation_m": 1264,
+        "botLiftElevation_m": 750,
+        "Country": "Italy",
+        "url": "https://www.snow-forecast.com/resorts/Tarvisio/6day/top"
+    },
+    {
+        "resort": "Moelltal Glacier-Mölltaler Gletscher-",
+        "latitude": "46.94",
+        "longitude": "13.13",
+        "topLiftElevation_m": 2956,
+        "midLiftElevation_m": 2621,
+        "botLiftElevation_m": 2286,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Molltal-Glacier/6day/top"
+    },
+    {
+        "resort": "Wendelstein-Brannenburg-​Osterhofen",
+        "latitude": "47.70",
+        "longitude": "12.01",
+        "topLiftElevation_m": 1723,
+        "midLiftElevation_m": 1256,
+        "botLiftElevation_m": 790,
+        "Country": "Germany",
+        "url": "https://www.snow-forecast.com/resorts/Bayrischzell-Brannenburg-Wendelstein/6day/top"
+    },
+    {
+        "resort": "Sulden am Ortler-Solda all'Ortles-",
+        "latitude": "46.52",
+        "longitude": "10.60",
+        "topLiftElevation_m": 3250,
+        "midLiftElevation_m": 2575,
+        "botLiftElevation_m": 1900,
+        "Country": "Italy",
+        "url": "https://www.snow-forecast.com/resorts/Sulden/6day/top"
+    },
+    {
+        "resort": "Hinterstoder-Höss",
+        "latitude": "47.68",
+        "longitude": "14.15",
+        "topLiftElevation_m": 2321,
+        "midLiftElevation_m": 1622,
+        "botLiftElevation_m": 922,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Hinterstoder/6day/top"
+    },
+    {
+        "resort": "St. Jean Montclar",
+        "latitude": "44.40",
+        "longitude": "6.33",
+        "topLiftElevation_m": 2500,
+        "midLiftElevation_m": 1925,
+        "botLiftElevation_m": 1349,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/SaintJeanMontclar/6day/top"
+    },
+    {
+        "resort": "Feldberg-Seebuck-​Grafenmatt-​Fahl",
+        "latitude": "47.86",
+        "longitude": "8.11",
+        "topLiftElevation_m": 1448,
+        "midLiftElevation_m": 1196,
+        "botLiftElevation_m": 945,
+        "Country": "Germany",
+        "url": "https://www.snow-forecast.com/resorts/Feldberg/6day/top"
+    },
+    {
+        "resort": "Pitztal Glacier-Pitztaler Gletscher-",
+        "latitude": "46.96",
+        "longitude": "10.86",
+        "topLiftElevation_m": 3440,
+        "midLiftElevation_m": 2590,
+        "botLiftElevation_m": 1740,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Pitztal/6day/top"
+    },
+    {
+        "resort": "Tauplitz-Bad Mitterndorf",
+        "latitude": "47.55",
+        "longitude": "14.00",
+        "topLiftElevation_m": 1964,
+        "midLiftElevation_m": 1424,
+        "botLiftElevation_m": 886,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Tauplitz/6day/top"
+    },
+    {
+        "resort": "Hochoetz-Oetz",
+        "latitude": "47.20",
+        "longitude": "10.90",
+        "topLiftElevation_m": 2020,
+        "midLiftElevation_m": 1420,
+        "botLiftElevation_m": 819,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Oetz/6day/top"
+    },
+    {
+        "resort": "Rosshütte-Seefeld",
+        "latitude": "47.34",
+        "longitude": "11.23",
+        "topLiftElevation_m": 2100,
+        "midLiftElevation_m": 1650,
+        "botLiftElevation_m": 1199,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Seefeld/6day/top"
+    },
+    {
+        "resort": "Špičák",
+        "latitude": "49.13",
+        "longitude": "13.23",
+        "topLiftElevation_m": 1202,
+        "midLiftElevation_m": 1031,
+        "botLiftElevation_m": 860,
+        "Country": "Czech Republic",
+        "url": "https://www.snow-forecast.com/resorts/ZeleznaRuda-Spicak/6day/top"
+    },
+    {
+        "resort": "Riesneralm-Donnersbachwald",
+        "latitude": "47.38",
+        "longitude": "14.12",
+        "topLiftElevation_m": 2100,
+        "midLiftElevation_m": 1545,
+        "botLiftElevation_m": 989,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Donnersbachwald/6day/top"
+    },
+    {
+        "resort": "Berwang-​Bichlbach-​Rinnen",
+        "latitude": "47.40",
+        "longitude": "10.75",
+        "topLiftElevation_m": 1740,
+        "midLiftElevation_m": 1408,
+        "botLiftElevation_m": 1075,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/BerwangBichlbachRinnen/6day/top"
+    },
+    {
+        "resort": "Glungezer-Tulfes",
+        "latitude": "47.25",
+        "longitude": "11.53",
+        "topLiftElevation_m": 2305,
+        "midLiftElevation_m": 1627,
+        "botLiftElevation_m": 950,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Glungezer/6day/top"
+    },
+    {
+        "resort": "Fanningberg",
+        "latitude": "47.15",
+        "longitude": "13.75",
+        "topLiftElevation_m": 2018,
+        "midLiftElevation_m": 1760,
+        "botLiftElevation_m": 1500,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Fanningberg/6day/top"
+    },
+    {
+        "resort": "Turracher Höhe",
+        "latitude": "46.82",
+        "longitude": "13.87",
+        "topLiftElevation_m": 2200,
+        "midLiftElevation_m": 1776,
+        "botLiftElevation_m": 1349,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Turracherhohe/6day/top"
+    },
+    {
+        "resort": "Niedere-Andelsbuch-​Bezau",
+        "latitude": "47.42",
+        "longitude": "9.88",
+        "topLiftElevation_m": 1700,
+        "midLiftElevation_m": 1178,
+        "botLiftElevation_m": 655,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Andelsbuch/6day/top"
+    },
+    {
+        "resort": "Wurzeralm-Spital am Pyhrn",
+        "latitude": "47.65",
+        "longitude": "14.33",
+        "topLiftElevation_m": 1869,
+        "midLiftElevation_m": 1340,
+        "botLiftElevation_m": 811,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/SpitalamPyhrn/6day/top"
+    },
+    {
+        "resort": "Präbichl-Vordernberg",
+        "latitude": "47.47",
+        "longitude": "15.00",
+        "topLiftElevation_m": 1800,
+        "midLiftElevation_m": 1449,
+        "botLiftElevation_m": 1100,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Vordernberg/6day/top"
+    },
+    {
+        "resort": "Pfelders-Moos in Passeier-",
+        "latitude": "46.79",
+        "longitude": "11.09",
+        "topLiftElevation_m": 2520,
+        "midLiftElevation_m": 2071,
+        "botLiftElevation_m": 1622,
+        "Country": "Italy",
+        "url": "https://www.snow-forecast.com/resorts/Pfelders/6day/top"
+    },
+    {
+        "resort": "Lavarone",
+        "latitude": "45.93",
+        "longitude": "11.25",
+        "topLiftElevation_m": 1550,
+        "midLiftElevation_m": 1324,
+        "botLiftElevation_m": 1100,
+        "Country": "Italy",
+        "url": "https://www.snow-forecast.com/resorts/Lavarone/6day/top"
+    },
+    {
+        "resort": "Geißkopf-Bischofsmais",
+        "latitude": "48.92",
+        "longitude": "13.05",
+        "topLiftElevation_m": 1096,
+        "midLiftElevation_m": 965,
+        "botLiftElevation_m": 835,
+        "Country": "Germany",
+        "url": "https://www.snow-forecast.com/resorts/Geisskopf/6day/top"
+    },
+    {
+        "resort": "Donovaly-Park Snow-",
+        "latitude": "48.88",
+        "longitude": "19.23",
+        "topLiftElevation_m": 1402,
+        "midLiftElevation_m": 1157,
+        "botLiftElevation_m": 915,
+        "Country": "Slovakia",
+        "url": "https://www.snow-forecast.com/resorts/Donovaly/6day/top"
+    },
+    {
+        "resort": "Sudelfeld-Bayrischzell",
+        "latitude": "47.67",
+        "longitude": "12.02",
+        "topLiftElevation_m": 1563,
+        "midLiftElevation_m": 1328,
+        "botLiftElevation_m": 1093,
+        "Country": "Germany",
+        "url": "https://www.snow-forecast.com/resorts/Bayrischzell/6day/top"
+    },
+    {
+        "resort": "Grüntenlifte-Kranzegg-Rettenberg-",
+        "latitude": "47.58",
+        "longitude": "10.30",
+        "topLiftElevation_m": 1680,
+        "midLiftElevation_m": 1274,
+        "botLiftElevation_m": 869,
+        "Country": "Germany",
+        "url": "https://www.snow-forecast.com/resorts/Rettenberg/6day/top"
+    },
+    {
+        "resort": "Grebenzen-St. Lambrecht",
+        "latitude": "47.03",
+        "longitude": "14.33",
+        "topLiftElevation_m": 1899,
+        "midLiftElevation_m": 1449,
+        "botLiftElevation_m": 1000,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/GrebenzenStLambrecht/6day/top"
+    },
+    {
+        "resort": "Kirchdorf",
+        "latitude": "47.55",
+        "longitude": "12.44",
+        "topLiftElevation_m": 900,
+        "midLiftElevation_m": 769,
+        "botLiftElevation_m": 640,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Kirchdorf/6day/top"
+    },
+    {
+        "resort": "Nebelhorn-Oberstdorf",
+        "latitude": "47.42",
+        "longitude": "10.35",
+        "topLiftElevation_m": 2223,
+        "midLiftElevation_m": 1519,
+        "botLiftElevation_m": 815,
+        "Country": "Germany",
+        "url": "https://www.snow-forecast.com/resorts/OberstdorfNebelhorn/6day/top"
+    },
+    {
+        "resort": "Lachtal",
+        "latitude": "47.25",
+        "longitude": "14.37",
+        "topLiftElevation_m": 2221,
+        "midLiftElevation_m": 1911,
+        "botLiftElevation_m": 1600,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Lachtal/6day/top"
+    },
+    {
+        "resort": "Ramsau am Dachstein-Rittisberg",
+        "latitude": "47.19",
+        "longitude": "13.61",
+        "topLiftElevation_m": 1636,
+        "midLiftElevation_m": 1335,
+        "botLiftElevation_m": 1035,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Ramsau-am-Dachstein-Rittisberg-Skiregion/6day/top"
+    },
+    {
+        "resort": "Eibenstock",
+        "latitude": "50.49",
+        "longitude": "12.59",
+        "topLiftElevation_m": 779,
+        "midLiftElevation_m": 715,
+        "botLiftElevation_m": 650,
+        "Country": "Germany",
+        "url": "https://www.snow-forecast.com/resorts/Eibenstock/6day/top"
+    },
+    {
+        "resort": "Bürchen-​Törbel-Moosalp",
+        "latitude": "46.27",
+        "longitude": "7.82",
+        "topLiftElevation_m": 2550,
+        "midLiftElevation_m": 2134,
+        "botLiftElevation_m": 1718,
+        "Country": "Switzerland",
+        "url": "https://www.snow-forecast.com/resorts/Burchen-Torbel/6day/top"
+    },
+    {
+        "resort": "Guzet",
+        "latitude": "42.78",
+        "longitude": "1.30",
+        "topLiftElevation_m": 2100,
+        "midLiftElevation_m": 1600,
+        "botLiftElevation_m": 1100,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/Guzet/6day/top"
+    },
+    {
+        "resort": "Fichtelberg-Oberwiesenthal",
+        "latitude": "50.00",
+        "longitude": "12.00",
+        "topLiftElevation_m": 1214,
+        "midLiftElevation_m": 1064,
+        "botLiftElevation_m": 914,
+        "Country": "Germany",
+        "url": "https://www.snow-forecast.com/resorts/Fichtelberg/6day/top"
+    },
+    {
+        "resort": "Bellwald",
+        "latitude": "46.43",
+        "longitude": "8.15",
+        "topLiftElevation_m": 2559,
+        "midLiftElevation_m": 2084,
+        "botLiftElevation_m": 1609,
+        "Country": "Switzerland",
+        "url": "https://www.snow-forecast.com/resorts/BellwaldGoms/6day/top"
+    },
+    {
+        "resort": "Klewenalp-​Stockhütte-Beckenried-​Emmetten",
+        "latitude": "46.97",
+        "longitude": "8.47",
+        "topLiftElevation_m": 2324,
+        "midLiftElevation_m": 2091,
+        "botLiftElevation_m": 1858,
+        "Country": "Switzerland",
+        "url": "https://www.snow-forecast.com/resorts/Klewenalp-Stockhutte/6day/top"
+    },
+    {
+        "resort": "Schöneck-Skiwelt-",
+        "latitude": "50.38",
+        "longitude": "12.32",
+        "topLiftElevation_m": 800,
+        "midLiftElevation_m": 700,
+        "botLiftElevation_m": 600,
+        "Country": "Germany",
+        "url": "https://www.snow-forecast.com/resorts/SchoneckHoheReuth/6day/top"
+    },
+    {
+        "resort": "Štrbské Pleso",
+        "latitude": "49.12",
+        "longitude": "20.05",
+        "topLiftElevation_m": 1839,
+        "midLiftElevation_m": 1620,
+        "botLiftElevation_m": 1399,
+        "Country": "Slovakia",
+        "url": "https://www.snow-forecast.com/resorts/StrbskePleso/6day/top"
+    },
+    {
+        "resort": "Gaissau-Hintersee",
+        "latitude": "47.72",
+        "longitude": "13.24",
+        "topLiftElevation_m": 1566,
+        "midLiftElevation_m": 1157,
+        "botLiftElevation_m": 750,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Gaissau-Hintersee/6day/top"
+    },
+    {
+        "resort": "Hochrindl-Sirnitz",
+        "latitude": "46.86",
+        "longitude": "14.00",
+        "topLiftElevation_m": 1899,
+        "midLiftElevation_m": 1700,
+        "botLiftElevation_m": 1500,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Hochrindl/6day/top"
+    },
+    {
+        "resort": "La Bresse-Hohneck",
+        "latitude": "48.00",
+        "longitude": "6.88",
+        "topLiftElevation_m": 1349,
+        "midLiftElevation_m": 1125,
+        "botLiftElevation_m": 900,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/La-Bresse/6day/top"
+    },
+    {
+        "resort": "Silbersattel-Steinach",
+        "latitude": "50.44",
+        "longitude": "11.14",
+        "topLiftElevation_m": 842,
+        "midLiftElevation_m": 665,
+        "botLiftElevation_m": 490,
+        "Country": "Germany",
+        "url": "https://www.snow-forecast.com/resorts/Steinach-Silbersattel/6day/top"
+    },
+    {
+        "resort": "Lammeralm-Langenwang",
+        "latitude": "47.57",
+        "longitude": "15.62",
+        "topLiftElevation_m": 1449,
+        "midLiftElevation_m": 1170,
+        "botLiftElevation_m": 889,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Langenwang/6day/top"
+    },
+    {
+        "resort": "Loser-Altaussee",
+        "latitude": "47.63",
+        "longitude": "13.77",
+        "topLiftElevation_m": 1750,
+        "midLiftElevation_m": 1249,
+        "botLiftElevation_m": 750,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Altaussee/6day/top"
+    },
+    {
+        "resort": "Christlum-Achenkirch",
+        "latitude": "47.52",
+        "longitude": "11.70",
+        "topLiftElevation_m": 1780,
+        "midLiftElevation_m": 1365,
+        "botLiftElevation_m": 950,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Achenkirch/6day/top"
+    },
+    {
+        "resort": "Grasgehren-Bolgengrat",
+        "latitude": "47.44",
+        "longitude": "10.18",
+        "topLiftElevation_m": 1665,
+        "midLiftElevation_m": 1556,
+        "botLiftElevation_m": 1447,
+        "Country": "Germany",
+        "url": "https://www.snow-forecast.com/resorts/Grasgehren-Bolgengrat/6day/top"
+    },
+    {
+        "resort": "Götschen-Bischofswiesen",
+        "latitude": "47.63",
+        "longitude": "12.93",
+        "topLiftElevation_m": 1306,
+        "midLiftElevation_m": 1093,
+        "botLiftElevation_m": 879,
+        "Country": "Germany",
+        "url": "https://www.snow-forecast.com/resorts/Bischofswiesen-Goetschen/6day/top"
+    },
+    {
+        "resort": "Torrent-Leukerbad",
+        "latitude": "46.38",
+        "longitude": "7.63",
+        "topLiftElevation_m": 2610,
+        "midLiftElevation_m": 1965,
+        "botLiftElevation_m": 1321,
+        "Country": "Switzerland",
+        "url": "https://www.snow-forecast.com/resorts/Leukerbad/6day/top"
+    },
+    {
+        "resort": "Monte Popolo-Eben im Pongau",
+        "latitude": "47.40",
+        "longitude": "13.41",
+        "topLiftElevation_m": 1612,
+        "midLiftElevation_m": 1237,
+        "botLiftElevation_m": 861,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Eben-Monte-Popolo/6day/top"
+    },
+    {
+        "resort": "Alpe Lusia-Moena-​Bellamonte",
+        "latitude": "46.32",
+        "longitude": "11.65",
+        "topLiftElevation_m": 2340,
+        "midLiftElevation_m": 1855,
+        "botLiftElevation_m": 1370,
+        "Country": "Italy",
+        "url": "https://www.snow-forecast.com/resorts/BellamonteAlpeLusia/6day/top"
+    },
+    {
+        "resort": "Unternberg-Ruhpolding-",
+        "latitude": "47.73",
+        "longitude": "12.63",
+        "topLiftElevation_m": 1417,
+        "midLiftElevation_m": 1064,
+        "botLiftElevation_m": 710,
+        "Country": "Germany",
+        "url": "https://www.snow-forecast.com/resorts/Unternberg-Ruhpolding/6day/top"
+    },
+    {
+        "resort": "Diavolezza-​Lagalb",
+        "latitude": "46.42",
+        "longitude": "9.97",
+        "topLiftElevation_m": 3006,
+        "midLiftElevation_m": 2548,
+        "botLiftElevation_m": 2091,
+        "Country": "Switzerland",
+        "url": "https://www.snow-forecast.com/resorts/Diavolezza-Lagalb/6day/top"
+    },
+    {
+        "resort": "Kubínska hoľa",
+        "latitude": "49.28",
+        "longitude": "19.28",
+        "topLiftElevation_m": 1395,
+        "midLiftElevation_m": 1093,
+        "botLiftElevation_m": 790,
+        "Country": "Slovakia",
+        "url": "https://www.snow-forecast.com/resorts/KubinskaHola/6day/top"
+    },
+    {
+        "resort": "Molines-en-Queyras-​Saint-Véran",
+        "latitude": "44.73",
+        "longitude": "6.85",
+        "topLiftElevation_m": 2451,
+        "midLiftElevation_m": 2100,
+        "botLiftElevation_m": 1751,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/MolinesEnQueyras/6day/top"
+    },
+    {
+        "resort": "Tatranská Lomnica",
+        "latitude": "49.17",
+        "longitude": "20.28",
+        "topLiftElevation_m": 2634,
+        "midLiftElevation_m": 1761,
+        "botLiftElevation_m": 888,
+        "Country": "Slovakia",
+        "url": "https://www.snow-forecast.com/resorts/TatranskaLomnica-Jamy/6day/top"
+    },
+    {
+        "resort": "Kanin-Sella Nevea-​Bovec",
+        "latitude": "46.33",
+        "longitude": "13.54",
+        "topLiftElevation_m": 2300,
+        "midLiftElevation_m": 1719,
+        "botLiftElevation_m": 1139,
+        "Country": "Slovenia",
+        "url": "https://www.snow-forecast.com/resorts/Kanin/6day/top"
+    },
+    {
+        "resort": "Oberjoch-Bad Hindelang-– Iseler",
+        "latitude": "47.52",
+        "longitude": "10.40",
+        "topLiftElevation_m": 1630,
+        "midLiftElevation_m": 1380,
+        "botLiftElevation_m": 1130,
+        "Country": "Germany",
+        "url": "https://www.snow-forecast.com/resorts/Oberjoch/6day/top"
+    },
+    {
+        "resort": "Mönichkirchen-​Mariensee",
+        "latitude": "47.50",
+        "longitude": "16.03",
+        "topLiftElevation_m": 1449,
+        "midLiftElevation_m": 1160,
+        "botLiftElevation_m": 869,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/MonichkirchenMariensee/6day/top"
+    },
+    {
+        "resort": "Grächen",
+        "latitude": "46.20",
+        "longitude": "7.83",
+        "topLiftElevation_m": 2891,
+        "midLiftElevation_m": 2256,
+        "botLiftElevation_m": 1621,
+        "Country": "Switzerland",
+        "url": "https://www.snow-forecast.com/resorts/Grachen/6day/top"
+    },
+    {
+        "resort": "Puigmal",
+        "latitude": "42.41",
+        "longitude": "2.15",
+        "topLiftElevation_m": 2600,
+        "midLiftElevation_m": 2214,
+        "botLiftElevation_m": 1830,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/Puigmal-2900/6day/top"
+    },
+    {
+        "resort": "Kranzberg-Mittenwald",
+        "latitude": "47.45",
+        "longitude": "11.23",
+        "topLiftElevation_m": 1391,
+        "midLiftElevation_m": 1185,
+        "botLiftElevation_m": 979,
+        "Country": "Germany",
+        "url": "https://www.snow-forecast.com/resorts/Mittenwald-Kranzberg/6day/top"
+    },
+    {
+        "resort": "Wetterstein lifts-Wettersteinbahnen-– Ehrwald",
+        "latitude": "47.43",
+        "longitude": "10.94",
+        "topLiftElevation_m": 2964,
+        "midLiftElevation_m": 1982,
+        "botLiftElevation_m": 1000,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Ehrwald/6day/top"
+    },
+    {
+        "resort": "Stuhleck-Spital am Semmering",
+        "latitude": "47.57",
+        "longitude": "15.78",
+        "topLiftElevation_m": 1773,
+        "midLiftElevation_m": 1285,
+        "botLiftElevation_m": 799,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Stuhleck/6day/top"
+    },
+    {
+        "resort": "Rossfeld - Berchtesgaden - Oberau",
+        "latitude": "47.63",
+        "longitude": "13.00",
+        "topLiftElevation_m": 1800,
+        "midLiftElevation_m": 1252,
+        "botLiftElevation_m": 703,
+        "Country": "Germany",
+        "url": "https://www.snow-forecast.com/resorts/Berchtesgadener-Land/6day/top"
+    },
+    {
+        "resort": "Tignes - ​Val d'Isère",
+        "latitude": "45.45",
+        "longitude": "6.95",
+        "topLiftElevation_m": 3550,
+        "midLiftElevation_m": 2700,
+        "botLiftElevation_m": 1850,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/Val-d-Isere/6day/top"
+    },
+    {
+        "resort": "Courchevel (Les 3 Vallées)",
+        "latitude": "45.42",
+        "longitude": "6.65",
+        "topLiftElevation_m": 2738,
+        "midLiftElevation_m": 2038,
+        "botLiftElevation_m": 1338,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/Courchevel/6day/top"
+    },
+    {
+        "resort": "Les Gets (Les Portes du Soleil)",
+        "latitude": "46.16",
+        "longitude": "6.67",
+        "topLiftElevation_m": 2002,
+        "midLiftElevation_m": 1587,
+        "botLiftElevation_m": 1171,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/Les-Gets/6day/top"
+    },
+    {
+        "resort": "Avoriaz (Les Portes du Soleil)",
+        "latitude": "46.19",
+        "longitude": "6.77",
+        "topLiftElevation_m": 2253,
+        "midLiftElevation_m": 1698,
+        "botLiftElevation_m": 1143,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/Avoriaz/6day/top"
+    },
+    {
+        "resort": "Châtel (Les Portes du Soleil)",
+        "latitude": "46.27",
+        "longitude": "6.84",
+        "topLiftElevation_m": 2200,
+        "midLiftElevation_m": 1701,
+        "botLiftElevation_m": 1200,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/Chatel/6day/top"
+    },
+    {
+        "resort": "Obergurgl-Hochgurgl",
+        "latitude": "46.87",
+        "longitude": "11.03",
+        "topLiftElevation_m": 3080,
+        "midLiftElevation_m": 2440,
+        "botLiftElevation_m": 1800,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Obergurgl/6day/top"
+    },
+    {
+        "resort": "Kaunertal Glacier (Kaunertaler Gletscher)",
+        "latitude": "47.03",
+        "longitude": "10.75",
+        "topLiftElevation_m": 3160,
+        "midLiftElevation_m": 2691,
+        "botLiftElevation_m": 2224,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Kaunertal/6day/top"
+    },
+    {
+        "resort": "Ski Juwel Alpbachtal Wildschönau",
+        "latitude": "47.38",
+        "longitude": "11.93",
+        "topLiftElevation_m": 2025,
+        "midLiftElevation_m": 1419,
+        "botLiftElevation_m": 812,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Alpbach/6day/top"
+    },
+    {
+        "resort": "Reither Kogel-Reith im Alpbachtal",
+        "latitude": "47.38",
+        "longitude": "11.93",
+        "topLiftElevation_m": 2025,
+        "midLiftElevation_m": 1419,
+        "botLiftElevation_m": 812,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Alpbach/6day/top"
+    },
+    {
+        "resort": "Ellmau (SkiWelt Wilder Kaiser-Brixental)",
+        "latitude": "47.52",
+        "longitude": "12.30",
+        "topLiftElevation_m": 1957,
+        "midLiftElevation_m": 1288,
+        "botLiftElevation_m": 619,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Ellmau/6day/top"
+    },
+    {
+        "resort": "Westendorf (SkiWelt Wilder Kaiser-Brixental)",
+        "latitude": "47.43",
+        "longitude": "12.22",
+        "topLiftElevation_m": 1957,
+        "midLiftElevation_m": 1288,
+        "botLiftElevation_m": 619,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Westendorf/6day/top"
+    },
+    {
+        "resort": "Kitzsteinhorn - Kaprun",
+        "latitude": "47.27",
+        "longitude": "12.76",
+        "topLiftElevation_m": 3029,
+        "midLiftElevation_m": 1970,
+        "botLiftElevation_m": 911,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Kaprun/6day/top"
+    },
+    {
+        "resort": "Saint Martin de Belleville (Les 3 Vallées)",
+        "latitude": "45.38",
+        "longitude": "6.50",
+        "topLiftElevation_m": 2850,
+        "midLiftElevation_m": 2125,
+        "botLiftElevation_m": 1402,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/St-Martin-De-Belleville/6day/top"
+    },
+    {
+        "resort": "La Plagne (Paradiski)",
+        "latitude": "45.50",
+        "longitude": "6.72",
+        "topLiftElevation_m": 3250,
+        "midLiftElevation_m": 2250,
+        "botLiftElevation_m": 1249,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/La-Plagne/6day/top"
+    },
+    {
+        "resort": "Schladming (4-Berge-Skischauke)",
+        "latitude": "47.39",
+        "longitude": "13.69",
+        "topLiftElevation_m": 1894,
+        "midLiftElevation_m": 1313,
+        "botLiftElevation_m": 735,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Schladming/6day/top"
+    },
+    {
+        "resort": "Alpe d'Huez",
+        "latitude": "45.10",
+        "longitude": "6.07",
+        "topLiftElevation_m": 3350,
+        "midLiftElevation_m": 2225,
+        "botLiftElevation_m": 1100,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/Alpe-d-Huez/6day/top"
+    },
+    {
+        "resort": "Axamer Lizum",
+        "latitude": "47.20",
+        "longitude": "11.30",
+        "topLiftElevation_m": 2340,
+        "midLiftElevation_m": 1950,
+        "botLiftElevation_m": 1559,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Axamer/6day/top"
+    },
+    {
+        "resort": "Bonneval sur Arc",
+        "latitude": "45.37",
+        "longitude": "7.05",
+        "topLiftElevation_m": 3001,
+        "midLiftElevation_m": 2401,
+        "botLiftElevation_m": 1801,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/Bonneval-sur-Arc/6day/top"
+    },
+    {
+        "resort": "Brauneck Lenggries ​Wegscheid",
+        "latitude": "47.66",
+        "longitude": "11.57",
+        "topLiftElevation_m": 1700,
+        "midLiftElevation_m": 1199,
+        "botLiftElevation_m": 700,
+        "Country": "Germany",
+        "url": "https://www.snow-forecast.com/resorts/Lenggries/6day/top"
+    },
+    {
+        "resort": "Madonna di Campiglio-​Pinzolo-​Folgàrida-​Marilleva",
+        "latitude": "46.24",
+        "longitude": "10.83",
+        "topLiftElevation_m": 2500,
+        "midLiftElevation_m": 2000,
+        "botLiftElevation_m": 1500,
+        "Country": "Italy",
+        "url": "https://www.snow-forecast.com/resorts/Madonna-di-Campiglio/6day/top"
+    },
+    {
+        "resort": "Le Lys - Cauterets",
+        "latitude": "42.89",
+        "longitude": "-0.11",
+        "topLiftElevation_m": 2415,
+        "midLiftElevation_m": 2110,
+        "botLiftElevation_m": 1805,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/Cauterets/6day/top"
+    },
+    {
+        "resort": "Cervinia",
+        "latitude": "45.93",
+        "longitude": "7.63",
+        "topLiftElevation_m": 3480,
+        "midLiftElevation_m": 2502,
+        "botLiftElevation_m": 1524,
+        "Country": "Switzerland",
+        "url": "https://www.snow-forecast.com/resorts/Cervinia/6day/top"
+    },
+    {
+        "resort": "Grands Montets-Argentière (Chamonix)",
+        "latitude": "45.98",
+        "longitude": "6.93",
+        "topLiftElevation_m": 3275,
+        "midLiftElevation_m": 2264,
+        "botLiftElevation_m": 1252,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/Argentiere/6day/top"
+    },
+    {
+        "resort": "Balme-​Les Autannes-Vallorcine-​Le Tour",
+        "latitude": "46.00",
+        "longitude": "6.93",
+        "topLiftElevation_m": 2271,
+        "midLiftElevation_m": 1868,
+        "botLiftElevation_m": 1463,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/LeTour/6day/top"
+    },
+    {
+        "resort": "Crans-Montana",
+        "latitude": "46.28",
+        "longitude": "7.41",
+        "topLiftElevation_m": 3000,
+        "midLiftElevation_m": 2250,
+        "botLiftElevation_m": 1500,
+        "Country": "Switzerland",
+        "url": "https://www.snow-forecast.com/resorts/Crans-Montana/6day/top"
+    },
+    {
+        "resort": "Jakobshorn (Davos Klosters)",
+        "latitude": "46.81",
+        "longitude": "9.84",
+        "topLiftElevation_m": 2844,
+        "midLiftElevation_m": 2202,
+        "botLiftElevation_m": 1559,
+        "Country": "Switzerland",
+        "url": "https://www.snow-forecast.com/resorts/Davos/6day/top"
+    },
+    {
+        "resort": "Madrisa (Davos Klosters)",
+        "latitude": "46.90",
+        "longitude": "9.86",
+        "topLiftElevation_m": 2602,
+        "midLiftElevation_m": 1872,
+        "botLiftElevation_m": 1142,
+        "Country": "Switzerland",
+        "url": "https://www.snow-forecast.com/resorts/Madrisa/6day/top"
+    },
+    {
+        "resort": "Cortina d'Ampezzo",
+        "latitude": "46.55",
+        "longitude": "12.12",
+        "topLiftElevation_m": 2932,
+        "midLiftElevation_m": 2107,
+        "botLiftElevation_m": 1281,
+        "Country": "Italy",
+        "url": "https://www.snow-forecast.com/resorts/Cortina/6day/top"
+    },
+    {
+        "resort": "St. Moritz - Corviglia",
+        "latitude": "46.49",
+        "longitude": "9.83",
+        "topLiftElevation_m": 3025,
+        "midLiftElevation_m": 2440,
+        "botLiftElevation_m": 1856,
+        "Country": "Switzerland",
+        "url": "https://www.snow-forecast.com/resorts/St-Moritz/6day/top"
+    },
+    {
+        "resort": "Galtür",
+        "latitude": "46.97",
+        "longitude": "10.19",
+        "topLiftElevation_m": 2300,
+        "midLiftElevation_m": 1950,
+        "botLiftElevation_m": 1600,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Galtur/6day/top"
+    },
+    {
+        "resort": "Golm",
+        "latitude": "47.06",
+        "longitude": "9.84",
+        "topLiftElevation_m": 2085,
+        "midLiftElevation_m": 1801,
+        "botLiftElevation_m": 1520,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Golm/6day/top"
+    },
+    {
+        "resort": "Gresse en Vercors",
+        "latitude": "44.90",
+        "longitude": "5.57",
+        "topLiftElevation_m": 1751,
+        "midLiftElevation_m": 1498,
+        "botLiftElevation_m": 1245,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/Gresse-en-Vercors/6day/top"
+    },
+    {
+        "resort": "Wasserngrat (Gstaad)",
+        "latitude": "46.47",
+        "longitude": "7.29",
+        "topLiftElevation_m": 3000,
+        "midLiftElevation_m": 2000,
+        "botLiftElevation_m": 1000,
+        "Country": "Switzerland",
+        "url": "https://www.snow-forecast.com/resorts/Gstaad/6day/top"
+    },
+    {
+        "resort": "Arosa Lenzerheide",
+        "latitude": "46.75",
+        "longitude": "9.55",
+        "topLiftElevation_m": 2865,
+        "midLiftElevation_m": 2146,
+        "botLiftElevation_m": 1427,
+        "Country": "Switzerland",
+        "url": "https://www.snow-forecast.com/resorts/Lenzerheide-Valbella/6day/top"
+    },
+    {
+        "resort": "Verbier (4 Vallées)",
+        "latitude": "46.10",
+        "longitude": "7.23",
+        "topLiftElevation_m": 3330,
+        "midLiftElevation_m": 2415,
+        "botLiftElevation_m": 1500,
+        "Country": "Switzerland",
+        "url": "https://www.snow-forecast.com/resorts/Verbier/6day/top"
+    },
+    {
+        "resort": "Nendaz (4 Vallées)",
+        "latitude": "46.18",
+        "longitude": "7.29",
+        "topLiftElevation_m": 3331,
+        "midLiftElevation_m": 2348,
+        "botLiftElevation_m": 1365,
+        "Country": "Switzerland",
+        "url": "https://www.snow-forecast.com/resorts/Nendaz/6day/top"
+    },
+    {
+        "resort": "Thyon (4 Vallées)",
+        "latitude": "46.18",
+        "longitude": "7.35",
+        "topLiftElevation_m": 3867,
+        "midLiftElevation_m": 2978,
+        "botLiftElevation_m": 2090,
+        "Country": "Switzerland",
+        "url": "https://www.snow-forecast.com/resorts/Thyon-Printze/6day/top"
+    },
+    {
+        "resort": "Veysonnaz (4 Vallées)",
+        "latitude": "46.20",
+        "longitude": "7.33",
+        "topLiftElevation_m": 3330,
+        "midLiftElevation_m": 2315,
+        "botLiftElevation_m": 1299,
+        "Country": "Switzerland",
+        "url": "https://www.snow-forecast.com/resorts/Veysonnaz-Printze/6day/top"
+    },
+    {
+        "resort": "Ischgl",
+        "latitude": "47.01",
+        "longitude": "10.29",
+        "topLiftElevation_m": 2873,
+        "midLiftElevation_m": 2125,
+        "botLiftElevation_m": 1378,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Ischgl/6day/top"
+    },
+    {
+        "resort": "Kranjska Gora",
+        "latitude": "46.48",
+        "longitude": "13.80",
+        "topLiftElevation_m": 1623,
+        "midLiftElevation_m": 1216,
+        "botLiftElevation_m": 810,
+        "Country": "Slovenia",
+        "url": "https://www.snow-forecast.com/resorts/Kranjska-Gora/6day/top"
+    },
+    {
+        "resort": "Kuühtai",
+        "latitude": "47.21",
+        "longitude": "11.02",
+        "topLiftElevation_m": 2520,
+        "midLiftElevation_m": 2270,
+        "botLiftElevation_m": 2020,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Kuhtai/6day/top"
+    },
+    {
+        "resort": "La Grave - La Meije",
+        "latitude": "45.05",
+        "longitude": "6.30",
+        "topLiftElevation_m": 3550,
+        "midLiftElevation_m": 2474,
+        "botLiftElevation_m": 1399,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/LaGrave/6day/top"
+    },
+    {
+        "resort": "Les Deux alpes",
+        "latitude": "45.04",
+        "longitude": "6.12",
+        "topLiftElevation_m": 3600,
+        "midLiftElevation_m": 2626,
+        "botLiftElevation_m": 1651,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/Les-Deux-Alpes/6day/top"
+    },
+    {
+        "resort": "Les Contamines-​Hauteluce",
+        "latitude": "45.82",
+        "longitude": "6.73",
+        "topLiftElevation_m": 2487,
+        "midLiftElevation_m": 1832,
+        "botLiftElevation_m": 1175,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/Les-Contamines/6day/top"
+    },
+    {
+        "resort": "Les Orres",
+        "latitude": "44.49",
+        "longitude": "6.56",
+        "topLiftElevation_m": 2730,
+        "midLiftElevation_m": 2130,
+        "botLiftElevation_m": 1530,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/Les-Orres/6day/top"
+    },
+    {
+        "resort": "Zermatt - Matterhorn",
+        "latitude": "46.01",
+        "longitude": "7.74",
+        "topLiftElevation_m": 3820,
+        "midLiftElevation_m": 2720,
+        "botLiftElevation_m": 1619,
+        "Country": "Switzerland",
+        "url": "https://www.snow-forecast.com/resorts/Zermatt/6day/top"
+    },
+    {
+        "resort": "Obertauern",
+        "latitude": "47.25",
+        "longitude": "13.56",
+        "topLiftElevation_m": 2350,
+        "midLiftElevation_m": 1995,
+        "botLiftElevation_m": 1640,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Obertauern/6day/top"
+    },
+    {
+        "resort": "Saalbach Hinterglemm Leogang Fieberbrunn (Skicircus)",
+        "latitude": "47.37",
+        "longitude": "12.61",
+        "topLiftElevation_m": 2100,
+        "midLiftElevation_m": 1552,
+        "botLiftElevation_m": 1003,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Saalbach/6day/top"
+    },
+    {
+        "resort": "Saas-Fee",
+        "latitude": "46.11",
+        "longitude": "7.92",
+        "topLiftElevation_m": 3600,
+        "midLiftElevation_m": 2700,
+        "botLiftElevation_m": 1800,
+        "Country": "Switzerland",
+        "url": "https://www.snow-forecast.com/resorts/Saas-Fee/6day/top"
+    },
+    {
+        "resort": "Sainte-Foy-Tarentaise",
+        "latitude": "45.58",
+        "longitude": "6.88",
+        "topLiftElevation_m": 2620,
+        "midLiftElevation_m": 2082,
+        "botLiftElevation_m": 1545,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/Sainte-Foy/6day/top"
+    },
+    {
+        "resort": "Val Senales Glacier",
+        "latitude": "46.71",
+        "longitude": "10.90",
+        "topLiftElevation_m": 3200,
+        "midLiftElevation_m": 2600,
+        "botLiftElevation_m": 2000,
+        "Country": "Italy",
+        "url": "https://www.snow-forecast.com/resorts/Val-Senales/6day/top"
+    },
+    {
+        "resort": "Serfaus-Fiss-Ladis",
+        "latitude": "47.00",
+        "longitude": "10.53",
+        "topLiftElevation_m": 2820,
+        "midLiftElevation_m": 2010,
+        "botLiftElevation_m": 1199,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Serfaus/6day/top"
+    },
+    {
+        "resort": "Sestriere ski resort (Via Lattea)",
+        "latitude": "44.94",
+        "longitude": "6.83",
+        "topLiftElevation_m": 2823,
+        "midLiftElevation_m": 2086,
+        "botLiftElevation_m": 1349,
+        "Country": "Italy",
+        "url": "https://www.snow-forecast.com/resorts/Sestriere/6day/top"
+    },
+    {
+        "resort": "Silvretta Montafon",
+        "latitude": "47.03",
+        "longitude": "9.95",
+        "topLiftElevation_m": 2300,
+        "midLiftElevation_m": 1650,
+        "botLiftElevation_m": 1000,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Montafon/6day/top"
+    },
+    {
+        "resort": "Wagrain (Ski amedé)",
+        "latitude": "47.35",
+        "longitude": "13.24",
+        "topLiftElevation_m": 2014,
+        "midLiftElevation_m": 1470,
+        "botLiftElevation_m": 926,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Wagrain/6day/top"
+    },
+    {
+        "resort": "Flachau (Ski amedé)",
+        "latitude": "47.34",
+        "longitude": "13.39",
+        "topLiftElevation_m": 1981,
+        "midLiftElevation_m": 1372,
+        "botLiftElevation_m": 762,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Flachau/6day/top"
+    },
+    {
+        "resort": "St. Anton (Ski Arlberg)",
+        "latitude": "47.13",
+        "longitude": "10.26",
+        "topLiftElevation_m": 2811,
+        "midLiftElevation_m": 2058,
+        "botLiftElevation_m": 1303,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/St-Anton/6day/top"
+    },
+    {
+        "resort": "Lech (Ski Arlberg)",
+        "latitude": "47.21",
+        "longitude": "10.14",
+        "topLiftElevation_m": 2449,
+        "midLiftElevation_m": 1950,
+        "botLiftElevation_m": 1449,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Lech/6day/top"
+    },
+    {
+        "resort": "St. Christoph (Ski Arlberg)",
+        "latitude": "47.13",
+        "longitude": "10.21",
+        "topLiftElevation_m": 2659,
+        "midLiftElevation_m": 1906,
+        "botLiftElevation_m": 1153,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/St-Chrisptoph/6day/top"
+    },
+    {
+        "resort": "St. Johann in Tirol",
+        "latitude": "47.52",
+        "longitude": "12.43",
+        "topLiftElevation_m": 1700,
+        "midLiftElevation_m": 1185,
+        "botLiftElevation_m": 669,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/St-Johann-in-Tirol/6day/top"
+    },
+    {
+        "resort": "Bad Gastein",
+        "latitude": "47.11",
+        "longitude": "13.13",
+        "topLiftElevation_m": 2007,
+        "midLiftElevation_m": 1543,
+        "botLiftElevation_m": 1078,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Badgastein/6day/top"
+    },
+    {
+        "resort": "Kronplatz (Plan de Corones)",
+        "latitude": "46.73",
+        "longitude": "11.95",
+        "topLiftElevation_m": 2275,
+        "midLiftElevation_m": 1588,
+        "botLiftElevation_m": 900,
+        "Country": "Italy",
+        "url": "https://www.snow-forecast.com/resorts/KronplatzPlandeCorones/6day/top"
+    },
+    {
+        "resort": "Gargellen",
+        "latitude": "46.97",
+        "longitude": "9.92",
+        "topLiftElevation_m": 2300,
+        "midLiftElevation_m": 1862,
+        "botLiftElevation_m": 1423,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Gargellen/6day/top"
+    },
+    {
+        "resort": "Hochschwarzeck",
+        "latitude": "47.63",
+        "longitude": "12.92",
+        "topLiftElevation_m": 1385,
+        "midLiftElevation_m": 1207,
+        "botLiftElevation_m": 1029,
+        "Country": "Germany",
+        "url": "https://www.snow-forecast.com/resorts/Ramsau-Hochschwarzeck/6day/top"
+    },
+    {
+        "resort": "Sölden",
+        "latitude": "46.98",
+        "longitude": "10.98",
+        "topLiftElevation_m": 3250,
+        "midLiftElevation_m": 2310,
+        "botLiftElevation_m": 1370,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Solden/6day/top"
+    },
+    {
+        "resort": "Stubai Glacier",
+        "latitude": "47.00",
+        "longitude": "11.14",
+        "topLiftElevation_m": 3201,
+        "midLiftElevation_m": 2449,
+        "botLiftElevation_m": 1700,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Stubai-Glacier/6day/top"
+    },
+    {
+        "resort": "Elfer Neustift",
+        "latitude": "47.11",
+        "longitude": "11.31",
+        "topLiftElevation_m": 3250,
+        "midLiftElevation_m": 2125,
+        "botLiftElevation_m": 1000,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Neustift/6day/top"
+    },
+    {
+        "resort": "Val Gardena",
+        "latitude": "46.56",
+        "longitude": "11.73",
+        "topLiftElevation_m": 2518,
+        "midLiftElevation_m": 1876,
+        "botLiftElevation_m": 1235,
+        "Country": "Italy",
+        "url": "https://www.snow-forecast.com/resorts/Selva-Gardena/6day/top"
+    },
+    {
+        "resort": "Val Thorens (Les 3 Vallées)",
+        "latitude": "45.27",
+        "longitude": "6.58",
+        "topLiftElevation_m": 3230,
+        "midLiftElevation_m": 2765,
+        "botLiftElevation_m": 2300,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/Val-Thorens/6day/top"
+    },
+    {
+        "resort": "Montgenèvre (Via Lattea)",
+        "latitude": "44.93",
+        "longitude": "6.72",
+        "topLiftElevation_m": 2680,
+        "midLiftElevation_m": 2015,
+        "botLiftElevation_m": 1349,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/Montgenevre/6day/top"
+    },
+    {
+        "resort": "Sauze d’Oulx (Via Lattea)",
+        "latitude": "45.02",
+        "longitude": "6.86",
+        "topLiftElevation_m": 2823,
+        "midLiftElevation_m": 2086,
+        "botLiftElevation_m": 1349,
+        "Country": "Italy",
+        "url": "https://www.snow-forecast.com/resorts/Sauze-d-Oulx/6day/top"
+    },
+    {
+        "resort": "Gressoney - La-Trinite (Monterosa Ski)",
+        "latitude": "45.78",
+        "longitude": "7.83",
+        "topLiftElevation_m": 3275,
+        "midLiftElevation_m": 2608,
+        "botLiftElevation_m": 1940,
+        "Country": "Italy",
+        "url": "https://www.snow-forecast.com/resorts/Gressoney/6day/top"
+    },
+    {
+        "resort": "Champoluc (Monterosa Ski)",
+        "latitude": "45.83",
+        "longitude": "7.73",
+        "topLiftElevation_m": 2705,
+        "midLiftElevation_m": 2146,
+        "botLiftElevation_m": 1587,
+        "Country": "Italy",
+        "url": "https://www.snow-forecast.com/resorts/Champoluc/6day/top"
+    },
+    {
+        "resort": "Zauchensee",
+        "latitude": "47.36",
+        "longitude": "13.40",
+        "topLiftElevation_m": 2109,
+        "midLiftElevation_m": 1559,
+        "botLiftElevation_m": 1011,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Zauchensee/6day/top"
+    },
+    {
+        "resort": "Three Peaks Dolomites-Helm-​Stiergarten",
+        "latitude": "47.52",
+        "longitude": "12.33",
+        "topLiftElevation_m": 1957,
+        "midLiftElevation_m": 1288,
+        "botLiftElevation_m": 619,
+        "Country": "Italy",
+        "url": "https://www.snow-forecast.com/resorts/Going/6day/top"
+    },
+    {
+        "resort": "Mitterdorf-Almberg",
+        "latitude": "47.59",
+        "longitude": "10.33",
+        "topLiftElevation_m": 1295,
+        "midLiftElevation_m": 1145,
+        "botLiftElevation_m": 995,
+        "Country": "Germany",
+        "url": "https://www.snow-forecast.com/resorts/Adelharzlifte-Breitensteinlifte/6day/top"
+    },
+    {
+        "resort": "Jochgrimm-Passo Oclini",
+        "latitude": "46.35",
+        "longitude": "11.45",
+        "topLiftElevation_m": 2232,
+        "midLiftElevation_m": 2001,
+        "botLiftElevation_m": 1769,
+        "Country": "Italy",
+        "url": "https://www.snow-forecast.com/resorts/Lavazejoch-Passo-Lavazza-Jochgrimm/6day/top"
+    },
+    {
+        "resort": "Glacier 3000",
+        "latitude": "46.35",
+        "longitude": "7.21",
+        "topLiftElevation_m": 3015,
+        "midLiftElevation_m": 2281,
+        "botLiftElevation_m": 1545,
+        "Country": "Switzerland",
+        "url": "https://www.snow-forecast.com/resorts/GstaadGlacier3000/6day/top"
+    },
+    {
+        "resort": "Les Arcs",
+        "latitude": "45.59",
+        "longitude": "6.81",
+        "topLiftElevation_m": 3199,
+        "midLiftElevation_m": 2390,
+        "botLiftElevation_m": 1580,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/Les-Arcs/6day/top"
+    },
+    {
+        "resort": "Livigno",
+        "latitude": "46.53",
+        "longitude": "10.11",
+        "topLiftElevation_m": 2797,
+        "midLiftElevation_m": 2306,
+        "botLiftElevation_m": 1815,
+        "Country": "Italy",
+        "url": "https://www.snow-forecast.com/resorts/Livigno/6day/top"
+    },
+    {
+        "resort": "Kitzbuhel",
+        "latitude": "47.45",
+        "longitude": "12.39",
+        "topLiftElevation_m": 2000,
+        "midLiftElevation_m": 1399,
+        "botLiftElevation_m": 800,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Kitzbuhel/6day/top"
+    },
+    {
+        "resort": "Hochkonig",
+        "latitude": "47.42",
+        "longitude": "13.07",
+        "topLiftElevation_m": 1999,
+        "midLiftElevation_m": 1399,
+        "botLiftElevation_m": 800,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Hochkonig/6day/top"
+    },
+    {
+        "resort": "Villars",
+        "latitude": "46.31",
+        "longitude": "7.10",
+        "topLiftElevation_m": 2120,
+        "midLiftElevation_m": 1664,
+        "botLiftElevation_m": 1207,
+        "Country": "Switzerland",
+        "url": "https://www.snow-forecast.com/resorts/Villars/6day/top"
+    },
+    {
+        "resort": "Kleine Scheidegg / ​Männlichen-Grindelwald / ​Wengen",
+        "latitude": "46.61",
+        "longitude": "7.92",
+        "topLiftElevation_m": 2399,
+        "midLiftElevation_m": 1672,
+        "botLiftElevation_m": 943,
+        "Country": "Switzerland",
+        "url": "https://www.snow-forecast.com/resorts/Wengen/6day/top"
+    },
+    {
+        "resort": "San Bernardo La Rosire",
+        "latitude": "45.64",
+        "longitude": "6.85",
+        "topLiftElevation_m": 2799,
+        "midLiftElevation_m": 2324,
+        "botLiftElevation_m": 1850,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/La-Rosiere/6day/top"
+    },
+    {
+        "resort": "La Thuile",
+        "latitude": "45.72",
+        "longitude": "6.95",
+        "topLiftElevation_m": 2642,
+        "midLiftElevation_m": 2046,
+        "botLiftElevation_m": 1449,
+        "Country": "Italy",
+        "url": "https://www.snow-forecast.com/resorts/La-Thuile/6day/top"
+    },
+    {
+        "resort": "Courmayeur",
+        "latitude": "45.81",
+        "longitude": "6.96",
+        "topLiftElevation_m": 2755,
+        "midLiftElevation_m": 1982,
+        "botLiftElevation_m": 1210,
+        "Country": "Italy",
+        "url": "https://www.snow-forecast.com/resorts/Courmayeur/6day/top"
+    },
+    {
+        "resort": "Mayrhofen",
+        "latitude": "47.16",
+        "longitude": "11.90",
+        "topLiftElevation_m": 2500,
+        "midLiftElevation_m": 1565,
+        "botLiftElevation_m": 630,
+        "Country": "Austria",
+        "url": "https://www.snow-forecast.com/resorts/Mayrhofen/6day/top"
+    },
+    {
+        "resort": "Serre Chevalier",
+        "latitude": "44.94",
+        "longitude": "6.56",
+        "topLiftElevation_m": 2800,
+        "midLiftElevation_m": 2000,
+        "botLiftElevation_m": 1199,
+        "Country": "France",
+        "url": "https://www.snow-forecast.com/resorts/Serre-Chevalier/6day/top"
+    },
+    {
+        "resort": "Madesimo",
+        "latitude": "46.44",
+        "longitude": "9.36",
+        "topLiftElevation_m": 2948,
+        "midLiftElevation_m": 2249,
+        "botLiftElevation_m": 1550,
+        "Country": "Italy",
+        "url": "https://www.snow-forecast.com/resorts/Madesimo/6day/top"
+    }
+]

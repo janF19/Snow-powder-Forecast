@@ -1,0 +1,17 @@
+
+# Node modules
+node_modules/
+
+# Build folders
+dist/
+build/
+
+weather_responseTrash
+python_help_scripts
+
+
+# Environment variables
+.env
+
+# System files
+.DS_Store

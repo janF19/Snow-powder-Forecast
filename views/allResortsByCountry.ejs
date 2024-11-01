@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Ski Resorts by 7-Day Snowfall</title>
+    <link rel="stylesheet" href="/styles/indexStyle.css">
+</head>
+<body>
+    <%- include('partials/navbar') %>
+
+    <div class="container">
+        <h1>Top 5 Ski Resorts by 7-Day Snowfall by Country</h1>
+
+        <% Object.keys(resortsByCountry).sort().forEach(function(country) { %>
+            <% if (resortsByCountry[country].length > 0) { %>
+                <section class="country-section">
+                    <h2>
+                        <% if (country === 'Switzerland') { %>
+                            <img src="https://flagcdn.com/w20/ch.png" alt="Switzerland" style="width:20px; height:20px; vertical-align: middle; margin-right: 8px;">
+                        <% } else if (country === 'Austria') { %>
+                            <img src="https://flagcdn.com/w20/at.png" alt="Austria" style="width:20px; height:20px; vertical-align: middle; margin-right: 8px;">
+                        <% } else if (country === 'France') { %>
+                            <img src="https://flagcdn.com/w20/fr.png" alt="France" style="width:20px; height:20px; vertical-align: middle; margin-right: 8px;">
+                        <% } else if (country === 'Italy') { %>
+                            <img src="https://flagcdn.com/w20/it.png" alt="Italy" style="width:20px; height:20px; vertical-align: middle; margin-right: 8px;">
+                        <% } else if (country === 'Slovakia') { %>
+                            <img src="https://flagcdn.com/w20/sk.png" alt="Slovakia" style="width:20px; height:20px; vertical-align: middle; margin-right: 8px;">
+                        <% } else if (country === 'Slovenia') { %>
+                            <img src="https://flagcdn.com/w20/si.png" alt="Slovenia" style="width:20px; height:20px; vertical-align: middle; margin-right: 8px;">
+                        <% } else if (country === 'Germany') { %>
+                            <img src="https://flagcdn.com/w20/de.png" alt="Germany" style="width:20px; height:20px; vertical-align: middle; margin-right: 8px;">
+                        <% } %> 
+                        <%= country %>
+
+
+                    </h2>
+                    <div class="table-container">
+                        <table class="resort-table">
+                            <thead>
+                                <tr>
+                                    <th class="resort-name">Resort Name</th>
+                                    <th class="top-lift-elevation">Top Lift Elevation (m)</th>
+                                    <th class="seven-day-snowfall">7-Day Snowfall (cm)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <% resortsByCountry[country].forEach(function(resort) { %>
+                                    <tr>
+                                        <td>
+                                            <% if (resort.url && resort.url !== '#') { %>
+                                                <a href="<%= resort.url %>" target="_blank" class="resort-link" rel="noopener noreferrer">
+                                                    <%= resort.resort %>
+                                                </a>
+                                            <% } else { %>
+                                                <%= resort.resort %>
+                                            <% } %>
+                                        </td>
+                                        <td><%= resort.topLiftElevation %></td>
+                                        <td class="highlight"><%= resort.topLiftSevenDaySnowSum.toFixed(1) %></td>
+                                    </tr>
+                                <% }) %>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+            <% } %>
+        <% }) %>
+    </div>
+</body>
+</html>
