@@ -1,10 +1,22 @@
 services:
   - type: web
     name: powder
-    env: node
-    buildCommand: npm install && pip install -r requirements.txt
+    env: python
+    buildCommand: |
+      curl -fsSL https://deb.nodesource.com/setup_18.x | bash -
+      apt-get install -y nodejs
+      npm install
+      pip install --upgrade pip
+      pip install -r requirements.txt
+      chmod +x getForecastFull_all_resorts.py
     startCommand: node app.js
     envVars:
       - key: PORT
         value: 3000
-    runtime: python3
+      - key: PYTHON_VERSION
+        value: "3.9"
+      - key: PYTHONPATH
+        value: /opt/render/project/src
+      - key: DATA_DIR
+        value: /opt/render/project/data
+    runtime: "python3"

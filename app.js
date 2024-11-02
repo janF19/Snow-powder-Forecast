@@ -45,10 +45,28 @@ app.listen(PORT, '0.0.0.0', () => {
 
 
 const scriptPath = path.join(__dirname, 'getForecastFull_all_resorts.py')
+const dataDir = process.env.DATA_DIR || __dirname;
 const jsonPath = path.join(__dirname, 'weather_dataFull_7.json')
 
+if (!fs.existsSync(dataDir)) {
+    fs.mkdirSync(dataDir, { recursive: true });
+}
 
 function fetchWeatherData() {
+    console.log('Starting weather data fetch...');
+    console.log('Script path:', scriptPath);
+    console.log('JSON output path:', jsonPath);
+
+    const options = {
+        timeout: 60000,  // 60 second timeout
+        maxBuffer: 1024 * 1024, // 1MB buffer
+        cwd: __dirname,
+        env: { 
+            ...process.env,
+            PYTHONPATH: process.env.PYTHONPATH || __dirname
+        }
+    };
+    
     exec(`python ${scriptPath}`, (error, stdout, stderr) => {
         if (error) {
             console.error(`Error executing Python script: ${error.message}`);
