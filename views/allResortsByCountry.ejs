@@ -10,7 +10,13 @@
     <%- include('partials/navbar') %>
 
     <div class="container">
-        <h1>Top 5 Ski Resorts by 7-Day Snowfall by Country</h1>
+        
+
+        <div class="section-header">
+            
+            <h3>Most Snowfall in next 7 days Forecast by Country</h3>
+            <p>Top 5 resorts with highest expected snowfall in next 7 days</p>
+        </div>
 
         <% Object.keys(resortsByCountry).sort().forEach(function(country) { %>
             <% if (resortsByCountry[country].length > 0) { %>

@@ -4,7 +4,7 @@ const path = require('path');
 const { stdout, stderr } = require('process');
 const { exec } = require('child_process');
 
-// Path to your JSON file
+
 //const weatherDataPath = path.join(__dirname, '../weather_data2.json');
 const allResortsForecastPath = path.join(__dirname, '../weather_dataFull_7.json')
 
@@ -261,14 +261,6 @@ exports.getPast14DaySnow = async (req, res) => {
         res.status(500).json({ error: 'Failed to load resort data' });
     }
 }
-
-
-
-
-
-
-
-
 
 
 

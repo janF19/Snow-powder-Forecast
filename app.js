@@ -71,7 +71,7 @@ function fetchWeatherData() {
             const weatherData = JSON.parse(data);
             console.log('Weather data:', weatherData);
             
-            // You can now use this weather data in your Node.js app
+            
         });
     });
 }

@@ -1,21 +1,39 @@
-
-
 <nav>
-    <ul>
+    <div class="nav-toggle" id="nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <ul id="nav-menu">
         <li><a href="/">Home</a></li>
-        <li><a href="/allResortsCombined">7 days forecast</a></li>
-
-        <li><a href="/allResortsByCountry">All resorts forecast by coutry</a></li>
-
-        
-        <li><a href="/14dayForecastCombined">14 days forecast</a></li>
-
-        <li><a href="/past14daysnow">past 14 day snowfall</a></li>
-
-        <li><a href="/allHistory">All resorts History</a></li>
-
-
-        <!-- <li><a href="/history">History Data</a></li> -->
-        
+        <li><a href="/allResortsCombined">Week Ahead Forecast</a></li>
+        <li><a href="/allResortsByCountry">Forecast by Country</a></li>
+        <li><a href="/14dayForecastCombined">2-Week Forecast</a></li>
+        <li><a href="/past14daysnow">Recent Snowfall</a></li>
+        <li><a href="/allHistory">Historical Data</a></li>
     </ul>
 </nav>
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const navToggle = document.getElementById('nav-toggle');
+        const navMenu = document.getElementById('nav-menu');
+        
+        if (navToggle && navMenu) {
+            navToggle.addEventListener('click', function() {
+                navToggle.classList.toggle('active');
+                navMenu.classList.toggle('active');
+            });
+    
+            // Close menu when clicking a link
+            const navLinks = navMenu.getElementsByTagName('a');
+            for (let link of navLinks) {
+                link.addEventListener('click', function() {
+                    navToggle.classList.remove('active');
+                    navMenu.classList.remove('active');
+                });
+            }
+        }
+    });
+    </script>

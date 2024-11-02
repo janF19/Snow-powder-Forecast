@@ -23,10 +23,4 @@ router.post('/calculate-history-all', calculateAllHistory)
 
 
 
-
-//router.post('/calculate-history-snowfall', calculateHistorySnow)
-//router.get('/history', getHistoryData);
-// You can add other routes related to resorts here
-// e.g., router.get('/specificRoute', specificControllerFunction);
-
 module.exports = router;

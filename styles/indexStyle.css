@@ -46,40 +46,71 @@ tr:hover {
     }
 }
 
-
+/* Simple navbar styling */
+/* Simple navbar styling with larger font */
 nav {
-    display: flex;
-    justify-content: center;
+    width: 100%;
+    background-color: var(--background-color);
 }
 
-/* Navbar Styling */
 nav ul {
-    list-style-type: none;
-    padding: 0;
     display: flex;
-    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    list-style: none;
+    padding: 0.5rem;
+    margin: 0;
 }
 
 nav ul li {
-    display: inline;
+    display: inline-block;
 }
 
 nav ul li a {
-    text-decoration: none;
-    font-weight: 500;
     color: var(--primary-color);
+    text-decoration: none;
+    font-size: 1.1rem;  /* Increased from 0.95rem */
+    font-weight: 500;
+    padding: 0.25rem 0.5rem;
     transition: color 0.3s ease;
+    letter-spacing: 0.02em;  /* Added for better readability */
 }
 
 nav ul li a:hover {
     color: var(--hover-color);
-    text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    nav ul {
+        gap: 1.5rem;
+        justify-content: flex-start;
+        overflow-x: auto;
+        padding: 0.5rem;
+    }
+    
+    nav ul li a {
+        font-size: 1rem;  /* Slightly smaller on mobile but still larger than before */
+        white-space: nowrap;
+    }
 }
 
 
 
+h1 {
+    color: var(--primary-color); /* This matches other headings */
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
 
-
+.snowfall-description {
+    text-align: center;
+    max-width: 1200px;
+    margin: 1rem auto;
+    color: var(--text-color);
+}
 
 
 
@@ -170,14 +201,27 @@ body {
 .section-header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     margin-bottom: 2rem;
+    flex-direction: column;
+    gap: 0.5rem; /* Adds space between elements */
 }
 
-.section-header h2 {
+.section-header h3 {
     color: var(--primary-color);
     font-size: 1.8rem;
 }
+
+
+.section-one-header {
+         display: flex;     
+         justify-content: space-between;     
+         align-items: center;     
+         margin-bottom: 2rem; }  
+.section-one-header h2 {     color: var(--primary-color);     font-size: 1.8rem; } 
+
+
+
 
 /* Button Styling */
 .button-group {
@@ -929,3 +973,342 @@ tr:hover {
     margin-bottom: 15px;
     color: #1e40af;
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Enhanced Mobile Navigation */
+@media (max-width: 768px) {
+    nav {
+        position: relative;
+        width: 100%;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease-out;
+    }
+
+    nav ul.active {
+        max-height: 500px;
+    }
+
+    nav ul li {
+        width: 100%;
+        text-align: center;
+        padding: 0.5rem 0;
+        border-bottom: 1px solid var(--border-color);
+    }
+
+    nav ul li:last-child {
+        border-bottom: none;
+    }
+
+    /* Hamburger Menu */
+    .nav-toggle {
+        display: block;
+        position: absolute;
+        right: 1rem;
+        top: 1rem;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        padding: 0.5rem;
+    }
+
+    .nav-toggle span {
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: var(--primary-color);
+        margin: 6px 0;
+        transition: 0.4s;
+    }
+}
+
+/* Enhanced Table Responsiveness */
+@media (max-width: 768px) {
+    /* General table improvements */
+    .table-container {
+        margin: 0;
+        padding: 0.5rem;
+        border-radius: 0;
+    }
+
+    table {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    /* Forecast table mobile optimization */
+    .forecast-table {
+        min-width: unset;
+        width: 100%;
+    }
+
+    .forecast-table th,
+    .forecast-table td {
+        padding: 0.5rem;
+        font-size: 0.875rem;
+    }
+
+    /* History table mobile optimization */
+    .history-table {
+        min-width: unset;
+        width: 100%;
+    }
+
+    .history-table th,
+    .history-table td {
+        padding: 0.5rem;
+        font-size: 0.875rem;
+    }
+
+    /* Resort table mobile optimization */
+    .resort-table th,
+    .resort-table td {
+        padding: 0.5rem;
+        font-size: 0.875rem;
+    }
+
+    .resort-table td:nth-child(1) {
+        min-width: 120px;
+    }
+}
+
+/* Extra small devices */
+@media (max-width: 480px) {
+    /* Further table optimizations */
+    th, td {
+        padding: 0.4rem;
+        font-size: 0.8rem;
+    }
+
+    /* Adjust column widths for better mobile display */
+    .table-container th:nth-child(1),
+    .table-container td:nth-child(1) {
+        width: auto;
+        min-width: 60px;
+    }
+
+    .table-container th:nth-child(2),
+    .table-container td:nth-child(2) {
+        width: auto;
+        min-width: 100px;
+    }
+
+    /* Better handling of long text in tables */
+    td {
+        white-space: normal;
+        word-wrap: break-word;
+    }
+
+    /* Improved form responsiveness */
+    .history-form-container {
+        padding: 1rem;
+    }
+
+    #snowfall-form input[type="date"] {
+        font-size: 0.875rem;
+    }
+}
+
+/* Improved table scrolling indicators */
+.table-container {
+    position: relative;
+}
+
+.table-container::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 5px;
+    background: linear-gradient(to left, rgba(0,0,0,0.1), transparent);
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.table-container.scrollable::after {
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Base nav styles */
+nav {
+    width: 100%;
+    background-color: var(--background-color);
+    position: relative;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    list-style: none;
+    padding: 0.5rem;
+    margin: 0;
+}
+
+nav ul li a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 0.25rem 0.5rem;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: var(--hover-color);
+}
+
+/* Hamburger menu button - hidden by default */
+.nav-toggle {
+    display: none;
+    background: none;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.nav-toggle span {
+    display: block;
+    width: 25px;
+    height: 2px;
+    background-color: var(--primary-color);
+    margin: 5px 0;
+    transition: all 0.3s ease;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    .nav-toggle {
+        display: block;
+        position: absolute;
+        right: 1rem;
+        top: 1rem;
+        z-index: 1000;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+        padding: 1rem 0;
+    }
+
+    nav ul.active {
+        display: flex;
+    }
+
+    nav ul li {
+        width: 100%;
+        text-align: center;
+        padding: 0.5rem 0;
+        border-bottom: 1px solid var(--border-color);
+    }
+
+    nav ul li:last-child {
+        border-bottom: none;
+    }
+
+    /* Hamburger menu animation */
+    .nav-toggle.active span:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+
+    .nav-toggle.active span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .nav-toggle.active span:nth-child(3) {
+        transform: rotate(-45deg) translate(5px, -5px);
+    }
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+    /* Add padding to top of page content when hamburger menu is present */
+    nav {
+        padding-top: 3.5rem;  /* Space for hamburger button */
+    }
+
+    /* Position hamburger button */
+    .nav-toggle {
+        display: block;
+        position: absolute;
+        right: 1rem;
+        top: 0.75rem;  /* Adjusted positioning */
+        z-index: 1000;
+    }
+
+    /* Add margin to first heading after nav */
+    nav + h1,
+    nav + .container h1,
+    nav + div h1,
+    nav + section h1 {
+        margin-top: 1rem;  /* Space after navigation */
+    }
+
+    /* Ensure menu items don't overlap */
+    nav ul.active {
+        display: flex;
+        background-color: var(--background-color);
+        width: 100%;
+        z-index: 999;
+    }
+
+    /* Adjust any fixed or absolute positioned elements */
+    .hero-section,
+    .section-header,
+    .main-content {
+        margin-top: 1rem;
+    }
+}
