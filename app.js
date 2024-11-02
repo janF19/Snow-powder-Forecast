@@ -66,8 +66,8 @@ function fetchWeatherData() {
             PYTHONPATH: process.env.PYTHONPATH || __dirname
         }
     };
-    
-    exec(`python ${scriptPath}`, (error, stdout, stderr) => {
+
+    exec(`python3 ${scriptPath}`, (error, stdout, stderr) => {
         if (error) {
             console.error(`Error executing Python script: ${error.message}`);
             return;

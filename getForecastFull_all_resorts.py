@@ -1,10 +1,18 @@
-import openmeteo_requests
-import json
-import requests_cache
+import sys
 import logging
-from retry_requests import retry
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-import time
+try:
+    import openmeteo_requests
+    import json
+    import requests_cache
+    from retry_requests import retry
+    import time
+    logging.info("All required packages imported successfully")
+except ImportError as e:
+    logging.error(f"Failed to import required package: {str(e)}")
+    logging.error(f"Python path: {sys.path}")
+    sys.exit(1)
 
 # Adjust the sleep time as needed, e.g., 1 second
 SLEEP_INTERVAL = 1
