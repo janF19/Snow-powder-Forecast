@@ -1,6 +1,26 @@
+#!/usr/bin/env python3
+
 import sys
+import os
 import logging
+import subprocess
+
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+
+# Log Python environment information
+logging.info(f"Python version: {sys.version}")
+logging.info(f"Python executable: {sys.executable}")
+logging.info(f"Python path: {sys.path}")
+
+# Check pip installation
+try:
+    import pkg_resources
+    installed_packages = [f"{pkg.key} {pkg.version}" for pkg in pkg_resources.working_set]
+    logging.info("Installed packages:")
+    for pkg in installed_packages:
+        logging.info(pkg)
+except Exception as e:
+    logging.error(f"Error checking installed packages: {e}")
 
 try:
     import openmeteo_requests
@@ -12,8 +32,16 @@ try:
 except ImportError as e:
     logging.error(f"Failed to import required package: {str(e)}")
     logging.error(f"Python path: {sys.path}")
+    # Try to install the missing package
+    try:
+        subprocess.check_call([sys.executable, "-m", "pip", "install", "openmeteo-requests"])
+        logging.info("Successfully installed openmeteo-requests")
+        import openmeteo_requests
+    except Exception as install_error:
+        logging.error(f"Failed to install package: {str(install_error)}")
     sys.exit(1)
 
+# Rest of your existing code...
 # Adjust the sleep time as needed, e.g., 1 second
 SLEEP_INTERVAL = 1
 

@@ -57,39 +57,55 @@ function fetchWeatherData() {
     console.log('Script path:', scriptPath);
     console.log('JSON output path:', jsonPath);
 
-    const options = {
-        timeout: 60000,  // 60 second timeout
-        maxBuffer: 1024 * 1024, // 1MB buffer
-        cwd: __dirname,
-        env: { 
-            ...process.env,
-            PYTHONPATH: process.env.PYTHONPATH || __dirname
-        }
-    };
-
-    exec(`python3 ${scriptPath}`, (error, stdout, stderr) => {
+    // First, check Python installation
+    exec('which python3', (error, stdout, stderr) => {
         if (error) {
-            console.error(`Error executing Python script: ${error.message}`);
+            console.error('Error finding Python:', error);
             return;
         }
-        if (stderr) {
-            console.error(`Python script error: ${stderr}`);
-            return;
-        }
+        const pythonPath = stdout.trim();
+        console.log('Python path:', pythonPath);
 
-        console.log(`Python script output: ${stdout}`);
+        // Also check installed packages
+        exec(`${pythonPath} -m pip list`, (error, stdout, stderr) => {
+            console.log('Installed Python packages:', stdout);
+        });
 
-        // After running the Python script, you can read the JSON data from the file
-        fs.readFile(jsonPath, 'utf8', (err, data) => {
-            if (err) {
-                console.error(`Error reading weather data: ${err.message}`);
+        const options = {
+            timeout: 120000,
+            maxBuffer: 1024 * 1024 * 10, // Increased buffer size
+            cwd: __dirname,
+            env: { 
+                ...process.env,
+                PYTHONPATH: `${process.env.PYTHONPATH || __dirname}:/usr/local/lib/python3.11/site-packages`,
+                PYTHONUNBUFFERED: "1"
+            }
+        };
+
+        exec(`${pythonPath} ${scriptPath}`, options, (error, stdout, stderr) => {
+            if (error) {
+                console.error('Execution error:', error);
+                console.error('Error code:', error.code);
+                console.error('Error signal:', error.signal);
                 return;
             }
-
-            const weatherData = JSON.parse(data);
-            console.log('Weather data:', weatherData);
             
+            if (stderr) {
+                console.error('Python stderr:', stderr);
+            }
             
+            console.log('Python stdout:', stdout);
+            
+            try {
+                if (fs.existsSync(jsonPath)) {
+                    const weatherData = JSON.parse(fs.readFileSync(jsonPath, 'utf8'));
+                    console.log('Weather data loaded successfully');
+                } else {
+                    console.error('Weather data file not found at:', jsonPath);
+                }
+            } catch (err) {
+                console.error('Error reading/parsing weather data:', err);
+            }
         });
     });
 }
