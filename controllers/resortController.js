@@ -5,7 +5,7 @@ const { stdout, stderr } = require('process');
 const { exec } = require('child_process');
 
 
-//const weatherDataPath = path.join(__dirname, '../weather_data2.json');
+
 const allResortsForecastPath = path.join(__dirname, '../weather_dataFull_7.json')
 
 
