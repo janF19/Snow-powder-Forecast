@@ -100,8 +100,3 @@ function fetchWeatherData() {
 // Initial fetch
 fetchWeatherData();
 
-// Schedule daily fetch
-cron.schedule('00 00 * * *', () => {
-    console.log('Fetching daily weather data...');
-    fetchWeatherData();
-});
