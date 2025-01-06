@@ -367,8 +367,11 @@ exports.calculateAllHistory = (req, res) => {
     exec(`python3 "${scriptPath}" ${startDate} ${endDate} ${country}`,  
         { 
             cwd: path.join(__dirname, '..'),
-            
-        },(error, stdout, stderr) => {
+            env: {
+                ...process.env,
+                PYTHONUNBUFFERED: "1"
+            }
+        }, (error, stdout, stderr) => {
         if (error) {
             console.error('Python script execution error:', error);
             console.error('Stderr:', stderr);

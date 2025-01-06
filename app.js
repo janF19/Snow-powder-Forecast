@@ -45,32 +45,17 @@ function fetchWeatherData() {
     console.log('Script path:', scriptPath);
     console.log('JSON output path:', jsonPath);
 
-    // Use the Python from virtual environment
-    const pythonPath = path.join(__dirname, 'venv', 'bin', 'python3');
-    
-    // Check if virtual environment exists
-    if (!fs.existsSync(pythonPath)) {
-        console.error('Virtual environment Python not found at:', pythonPath);
-        return;
-    }
-
-    // Log Python packages
-    exec(`${pythonPath} -m pip list`, (error, stdout, stderr) => {
-        console.log('Installed Python packages:', stdout);
-    });
-
     const options = {
-        timeout: 300000, // Increased timeout to 5 minutes
+        timeout: 300000, // 5 minutes
         maxBuffer: 1024 * 1024 * 10,
         cwd: __dirname,
         env: {
             ...process.env,
-            PYTHONPATH: path.join(__dirname, 'venv', 'lib', 'python3.11', 'site-packages'),
             PYTHONUNBUFFERED: "1"
         }
     };
 
-    exec(`${pythonPath} ${scriptPath}`, options, (error, stdout, stderr) => {
+    exec(`python3 ${scriptPath}`, options, (error, stdout, stderr) => {
         if (error) {
             console.error('Execution error:', error);
             console.error('Error code:', error.code);
