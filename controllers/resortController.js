@@ -340,6 +340,19 @@ exports.calculateAllHistory = (req, res) => {
 
     console.log('Received parameters:', { startDate, endDate, country });
 
+
+    try{
+        console.log('Python environment:', process.env.PYTHONPATH);
+
+    exec('pip list', (error, stdout, stderr) => {
+        console.log('Installed Python packages:', stdout);
+    });
+
+    } catch (error) {
+        console.error('Error executing pip list:', error);
+    }
+    
+    
     // Input validation
     if (!startDate || !endDate) {
         console.log('Missing date parameters');
