@@ -352,7 +352,7 @@ exports.calculateAllHistory = (req, res) => {
         console.error('Error executing pip list:', error);
     }
     
-    
+
     // Input validation
     if (!startDate || !endDate) {
         console.log('Missing date parameters');
@@ -368,12 +368,27 @@ exports.calculateAllHistory = (req, res) => {
 
     // Construct the absolute path to the Python script
     const scriptPath = path.join(__dirname, '..', 'calculateAllHistory.py');
+    
     console.log('Executing Python script:', scriptPath);
 
+
+
+    // Use the virtual environment Python
+    const pythonPath = '/opt/render/project/src/venv/bin/python3';
+    
+
+
+    
+
     // Execute the Python script with the provided dates and country
-    exec(`python "${scriptPath}" ${startDate} ${endDate} ${country}`, 
-         { cwd: path.join(__dirname, '..') },
-         (error, stdout, stderr) => {
+    exec(`${pythonPath} "${scriptPath}" ${startDate} ${endDate} ${country}`, 
+        { 
+            cwd: path.join(__dirname, '..'),
+            env: {
+                ...process.env,
+                PYTHONPATH: process.env.PYTHONPATH || '/opt/render/project/src/venv/lib/python3.11/site-packages'
+            }
+        },(error, stdout, stderr) => {
         if (error) {
             console.error('Python script execution error:', error);
             console.error('Stderr:', stderr);

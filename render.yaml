@@ -14,9 +14,9 @@ services:
       # Install npm dependencies
       npm install
 
-      # Create and activate virtual environment
-      python3 -m venv venv
-      . venv/bin/activate
+      # Create and activate virtual environment in the correct location
+      python3 -m venv /opt/render/project/src/venv
+      . /opt/render/project/src/venv/bin/activate
 
       # Install Python packages in virtual environment
       pip install --upgrade pip setuptools wheel
@@ -24,6 +24,8 @@ services:
 
       # Make Python script executable
       chmod +x getForecastFull_all_resorts.py
+      chmod +x calculateAllHistory.py
+      chmod +x calculateHistory.py
 
       # Debug information
       echo "Installed Python packages:"
@@ -33,9 +35,7 @@ services:
       echo "Pip version:"
       pip --version
     startCommand: |
-      . venv/bin/activate  # Activate virtual environment
-      pip list  # Log installed packages at startup
-      node app.js
+     . /opt/render/project/src/venv/bin/activate && node app.js
     envVars:
       - key: PORT
         value: 3000
