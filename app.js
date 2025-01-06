@@ -45,17 +45,21 @@ function fetchWeatherData() {
     console.log('Script path:', scriptPath);
     console.log('JSON output path:', jsonPath);
 
+    const pythonPath = process.env.VIRTUAL_ENV ? `${process.env.VIRTUAL_ENV}/bin/python3` : 'python3';
+
     const options = {
-        timeout: 300000, // 5 minutes
+        timeout: 300000,
         maxBuffer: 1024 * 1024 * 10,
         cwd: __dirname,
         env: {
             ...process.env,
-            PYTHONUNBUFFERED: "1"
+            PYTHONUNBUFFERED: "1",
+            VIRTUAL_ENV: process.env.VIRTUAL_ENV,
+            PATH: `${process.env.VIRTUAL_ENV}/bin:${process.env.PATH}`
         }
     };
 
-    exec(`python3 ${scriptPath}`, options, (error, stdout, stderr) => {
+    exec(`${pythonPath} ${scriptPath}`, options, (error, stdout, stderr) => {
         if (error) {
             console.error('Execution error:', error);
             console.error('Error code:', error.code);

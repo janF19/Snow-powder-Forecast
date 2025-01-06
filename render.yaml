@@ -6,12 +6,22 @@ services:
       # Install Node.js dependencies
       npm install
 
-      # Install Python and pip directly
+      # Install Python and required system packages
       apt-get update
-      apt-get install -y python3 python3-pip
+      apt-get install -y python3 python3-pip python3-venv python3-full
 
-      # Install Python packages globally (without virtual env)
+      # Create and activate a virtual environment
+      python3 -m venv /opt/venv
+      . /opt/venv/bin/activate
+
+      # Upgrade pip in the virtual environment
+      pip3 install --upgrade pip
+
+      # Install Python packages in the virtual environment
       pip3 install --no-cache-dir pandas==2.1.0
+      pip3 install --no-cache-dir openmeteo-requests>=1.1.0
+      pip3 install --no-cache-dir requests-cache>=1.1.0
+      pip3 install --no-cache-dir retry-requests>=2.0.0
       pip3 install --no-cache-dir -r requirements.txt
 
       # Make Python scripts executable
@@ -24,9 +34,14 @@ services:
       pip3 list
       echo "Python version:"
       python3 --version
-    startCommand: node app.js
+    startCommand: |
+      . /opt/venv/bin/activate && node app.js
     envVars:
       - key: PORT
         value: 10000
       - key: PYTHONUNBUFFERED
         value: "1"
+      - key: VIRTUAL_ENV
+        value: /opt/venv
+      - key: PATH
+        value: /opt/venv/bin:${PATH}

@@ -362,14 +362,17 @@ exports.calculateAllHistory = (req, res) => {
     
     console.log('Executing Python script:', scriptPath);
 
-
-    // Execute the Python script with the provided dates and country
-    exec(`python3 "${scriptPath}" ${startDate} ${endDate} ${country}`,  
+    // Update the Python execution command to use the virtual environment
+    const pythonPath = process.env.VIRTUAL_ENV ? `${process.env.VIRTUAL_ENV}/bin/python3` : 'python3';
+    
+    exec(`${pythonPath} "${scriptPath}" ${startDate} ${endDate} ${country}`,  
         { 
             cwd: path.join(__dirname, '..'),
             env: {
                 ...process.env,
-                PYTHONUNBUFFERED: "1"
+                PYTHONUNBUFFERED: "1",
+                VIRTUAL_ENV: process.env.VIRTUAL_ENV,
+                PATH: `${process.env.VIRTUAL_ENV}/bin:${process.env.PATH}`
             }
         }, (error, stdout, stderr) => {
         if (error) {
