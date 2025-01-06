@@ -14,9 +14,9 @@ services:
       # Install npm dependencies
       npm install
 
-      # Create and activate virtual environment in the correct location
-      python3 -m venv /opt/render/project/src/venv
-      . /opt/render/project/src/venv/bin/activate
+      # Create virtual environment
+      python3 -m venv venv
+      . venv/bin/activate
 
       # Install Python packages in virtual environment
       pip install --upgrade pip setuptools wheel
@@ -35,7 +35,7 @@ services:
       echo "Pip version:"
       pip --version
     startCommand: |
-     . /opt/render/project/src/venv/bin/activate && node app.js
+     node app.js
     envVars:
       - key: PORT
         value: 3000

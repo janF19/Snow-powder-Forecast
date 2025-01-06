@@ -341,16 +341,7 @@ exports.calculateAllHistory = (req, res) => {
     console.log('Received parameters:', { startDate, endDate, country });
 
 
-    try{
-        console.log('Python environment:', process.env.PYTHONPATH);
-
-    exec('pip list', (error, stdout, stderr) => {
-        console.log('Installed Python packages:', stdout);
-    });
-
-    } catch (error) {
-        console.error('Error executing pip list:', error);
-    }
+    
     
 
     // Input validation
@@ -372,22 +363,11 @@ exports.calculateAllHistory = (req, res) => {
     console.log('Executing Python script:', scriptPath);
 
 
-
-    // Use the virtual environment Python
-    const pythonPath = '/opt/render/project/src/venv/bin/python3';
-    
-
-
-    
-
     // Execute the Python script with the provided dates and country
-    exec(`${pythonPath} "${scriptPath}" ${startDate} ${endDate} ${country}`, 
+    exec(`python3 "${scriptPath}" ${startDate} ${endDate} ${country}`,  
         { 
             cwd: path.join(__dirname, '..'),
-            env: {
-                ...process.env,
-                PYTHONPATH: process.env.PYTHONPATH || '/opt/render/project/src/venv/lib/python3.11/site-packages'
-            }
+            
         },(error, stdout, stderr) => {
         if (error) {
             console.error('Python script execution error:', error);
