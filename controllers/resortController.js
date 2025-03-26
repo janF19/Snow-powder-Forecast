@@ -3,6 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const { stdout, stderr } = require('process');
 const { exec } = require('child_process');
+const os = require('os');
 
 
 
@@ -371,24 +372,30 @@ exports.calculateAllHistory = (req, res) => {
         return res.status(500).json({ message: 'Data file not found' });
     }
 
-    // Use the virtual environment from environment variables or fallback to default
-    const pythonCommand = process.env.VIRTUAL_ENV 
-        ? path.join(process.env.VIRTUAL_ENV, 'bin', 'python3')
-        : 'python3';
+    // Create a temporary directory for the virtual environment
+    const tempVenvDir = path.join(os.tmpdir(), 'temp_venv_' + Date.now());
+    console.log('Creating temporary virtual environment at:', tempVenvDir);
+
+    // Create a virtual environment and install pandas
+    const setupCommand = `python3 -m venv ${tempVenvDir} && 
+                         ${tempVenvDir}/bin/pip install pandas && 
+                         ${tempVenvDir}/bin/python "${scriptPath}" "${startDate}" "${endDate}" "${country}"`;
     
-    console.log('Using Python command:', pythonCommand);
+    console.log('Running setup command:', setupCommand);
     
-    // Execute the Python script with proper error handling
-    exec(`${pythonCommand} "${scriptPath}" "${startDate}" "${endDate}" "${country}"`,  
-        { 
-            cwd: path.join(__dirname, '..'),
-            env: process.env  // Use the existing environment variables
-        }, (error, stdout, stderr) => {
-        
+    exec(setupCommand, { cwd: path.join(__dirname, '..') }, (error, stdout, stderr) => {
         // Log all outputs for debugging
         console.log('Python stdout:', stdout);
         if (stderr) {
             console.error('Python stderr:', stderr);
+        }
+        
+        // Clean up the temporary virtual environment
+        try {
+            exec(`rm -rf ${tempVenvDir}`);
+            console.log('Cleaned up temporary virtual environment');
+        } catch (cleanupError) {
+            console.error('Error cleaning up virtual environment:', cleanupError);
         }
         
         if (error) {
